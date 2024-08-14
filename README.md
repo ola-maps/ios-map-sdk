@@ -21,7 +21,6 @@ Or, You can use Swift Package Manager to install `OlaMapCore` using OlaMapCore
 4. Controls and gestures
 5. Shapes and Geometry
 6. Camera and POV
-7. Marker Clustering [WIP]
 
 ### PreRequisite 
 Make sure you have added the following persmission in your app,
