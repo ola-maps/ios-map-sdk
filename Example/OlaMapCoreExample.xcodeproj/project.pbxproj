@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		712209E22C510FB8006583AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712209E12C510FB8006583AC /* AppDelegate.swift */; };
+		712209E42C510FB8006583AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712209E32C510FB8006583AC /* SceneDelegate.swift */; };
+		712209E62C510FB8006583AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712209E52C510FB8006583AC /* ViewController.swift */; };
+		712209EB2C510FBA006583AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 712209EA2C510FBA006583AC /* Assets.xcassets */; };
+		712209EE2C510FBA006583AC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 712209ED2C510FBA006583AC /* Base */; };
+		71220A932C5110BC006583AC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 71220A912C5110BC006583AC /* README.md */; };
+		71220A942C5110BC006583AC /* OlaMapCore.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 71220A922C5110BC006583AC /* OlaMapCore.podspec */; };
+		71220AED2C511AD0006583AC /* PolygonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71220AE72C511AD0006583AC /* PolygonViewController.swift */; };
+		71220AEE2C511AD0006583AC /* AnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71220AE82C511AD0006583AC /* AnnotationViewController.swift */; };
+		71220AF02C511AD0006583AC /* PolylineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71220AEA2C511AD0006583AC /* PolylineViewController.swift */; };
+		71220AF12C511AD0006583AC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71220AEB2C511AD0006583AC /* MapViewController.swift */; };
+		712370AA2C6C0D34002BFD78 /* MapLibre.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 712370A12C6C0D25002BFD78 /* MapLibre.xcframework */; };
+		712370AB2C6C0D34002BFD78 /* MapLibre.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 712370A12C6C0D25002BFD78 /* MapLibre.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		712370AC2C6C0D35002BFD78 /* MoEngageAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709A2C6C0D25002BFD78 /* MoEngageAnalytics.xcframework */; };
+		712370AD2C6C0D35002BFD78 /* MoEngageAnalytics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709A2C6C0D25002BFD78 /* MoEngageAnalytics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		712370AE2C6C0D36002BFD78 /* MoEngageCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709E2C6C0D25002BFD78 /* MoEngageCore.xcframework */; };
+		712370AF2C6C0D36002BFD78 /* MoEngageCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709E2C6C0D25002BFD78 /* MoEngageCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		712370B02C6C0D37002BFD78 /* MoEngageMessaging.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709F2C6C0D25002BFD78 /* MoEngageMessaging.xcframework */; };
+		712370B12C6C0D37002BFD78 /* MoEngageMessaging.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709F2C6C0D25002BFD78 /* MoEngageMessaging.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		712370B22C6C0D38002BFD78 /* MoEngageObjCUtils.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709C2C6C0D25002BFD78 /* MoEngageObjCUtils.xcframework */; };
+		712370B32C6C0D38002BFD78 /* MoEngageObjCUtils.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709C2C6C0D25002BFD78 /* MoEngageObjCUtils.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		712370B42C6C0D39002BFD78 /* MoEngageSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709B2C6C0D25002BFD78 /* MoEngageSDK.xcframework */; };
+		712370B52C6C0D39002BFD78 /* MoEngageSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709B2C6C0D25002BFD78 /* MoEngageSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		712370B62C6C0D3C002BFD78 /* MoEngageSecurity.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 712370A02C6C0D25002BFD78 /* MoEngageSecurity.xcframework */; };
+		712370B72C6C0D3C002BFD78 /* MoEngageSecurity.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 712370A02C6C0D25002BFD78 /* MoEngageSecurity.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		712370B82C6C0D3D002BFD78 /* OlaMapCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709D2C6C0D25002BFD78 /* OlaMapCore.xcframework */; };
+		712370B92C6C0D3D002BFD78 /* OlaMapCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709D2C6C0D25002BFD78 /* OlaMapCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		71763CB32C513C0800964703 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71763CB22C513C0800964703 /* AppEnvironment.swift */; };
+		71763CB62C513C6B00964703 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71763CB52C513C6B00964703 /* Utility.swift */; };
+		71763CB82C513DE200964703 /* GenericCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71763CB72C513DE200964703 /* GenericCell.swift */; };
+		71A31CB22C528D4B00798392 /* SegmentedPolyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A31CB12C528D4B00798392 /* SegmentedPolyline.swift */; };
+		71A31CB52C52945800798392 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A31CB42C52945800798392 /* CameraViewController.swift */; };
+		71F1F0D32C6260210046C389 /* InfoWindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F1F0D22C6260210046C389 /* InfoWindowViewController.swift */; };
+		71F1F2012C637BB50046C389 /* MapEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F1F2002C637BB50046C389 /* MapEventViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		71220ABB2C5114C8006583AC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				712370B92C6C0D3D002BFD78 /* OlaMapCore.xcframework in Embed Frameworks */,
+				712370AB2C6C0D34002BFD78 /* MapLibre.xcframework in Embed Frameworks */,
+				712370B12C6C0D37002BFD78 /* MoEngageMessaging.xcframework in Embed Frameworks */,
+				712370B72C6C0D3C002BFD78 /* MoEngageSecurity.xcframework in Embed Frameworks */,
+				712370AD2C6C0D35002BFD78 /* MoEngageAnalytics.xcframework in Embed Frameworks */,
+				712370B52C6C0D39002BFD78 /* MoEngageSDK.xcframework in Embed Frameworks */,
+				712370B32C6C0D38002BFD78 /* MoEngageObjCUtils.xcframework in Embed Frameworks */,
+				712370AF2C6C0D36002BFD78 /* MoEngageCore.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7111BBEF2C63B5DC00D36895 /* OlaMapCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OlaMapCore.xcframework; path = ../Framework/OlaMapCore.xcframework; sourceTree = "<group>"; };
+		712209DE2C510FB8006583AC /* OlaMapCoreExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OlaMapCoreExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		712209E12C510FB8006583AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		712209E32C510FB8006583AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		712209E52C510FB8006583AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		712209EA2C510FBA006583AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		712209ED2C510FBA006583AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		712209EF2C510FBA006583AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71220A912C5110BC006583AC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		71220A922C5110BC006583AC /* OlaMapCore.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OlaMapCore.podspec; path = ../OlaMapCore.podspec; sourceTree = "<group>"; };
+		71220AE72C511AD0006583AC /* PolygonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolygonViewController.swift; sourceTree = "<group>"; };
+		71220AE82C511AD0006583AC /* AnnotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationViewController.swift; sourceTree = "<group>"; };
+		71220AEA2C511AD0006583AC /* PolylineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolylineViewController.swift; sourceTree = "<group>"; };
+		71220AEB2C511AD0006583AC /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7123709A2C6C0D25002BFD78 /* MoEngageAnalytics.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageAnalytics.xcframework; sourceTree = "<group>"; };
+		7123709B2C6C0D25002BFD78 /* MoEngageSDK.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageSDK.xcframework; sourceTree = "<group>"; };
+		7123709C2C6C0D25002BFD78 /* MoEngageObjCUtils.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageObjCUtils.xcframework; sourceTree = "<group>"; };
+		7123709D2C6C0D25002BFD78 /* OlaMapCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = OlaMapCore.xcframework; sourceTree = "<group>"; };
+		7123709E2C6C0D25002BFD78 /* MoEngageCore.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageCore.xcframework; sourceTree = "<group>"; };
+		7123709F2C6C0D25002BFD78 /* MoEngageMessaging.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageMessaging.xcframework; sourceTree = "<group>"; };
+		712370A02C6C0D25002BFD78 /* MoEngageSecurity.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageSecurity.xcframework; sourceTree = "<group>"; };
+		712370A12C6C0D25002BFD78 /* MapLibre.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MapLibre.xcframework; sourceTree = "<group>"; };
+		71763CB22C513C0800964703 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		71763CB52C513C6B00964703 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		71763CB72C513DE200964703 /* GenericCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericCell.swift; sourceTree = "<group>"; };
+		7183DDF72C5A4F0C00488A07 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
+		71A31CB12C528D4B00798392 /* SegmentedPolyline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPolyline.swift; sourceTree = "<group>"; };
+		71A31CB42C52945800798392 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		71F1F0D22C6260210046C389 /* InfoWindowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWindowViewController.swift; sourceTree = "<group>"; };
+		71F1F2002C637BB50046C389 /* MapEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapEventViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		712209DB2C510FB8006583AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712370AA2C6C0D34002BFD78 /* MapLibre.xcframework in Frameworks */,
+				712370B62C6C0D3C002BFD78 /* MoEngageSecurity.xcframework in Frameworks */,
+				712370B82C6C0D3D002BFD78 /* OlaMapCore.xcframework in Frameworks */,
+				712370AC2C6C0D35002BFD78 /* MoEngageAnalytics.xcframework in Frameworks */,
+				712370B42C6C0D39002BFD78 /* MoEngageSDK.xcframework in Frameworks */,
+				712370B22C6C0D38002BFD78 /* MoEngageObjCUtils.xcframework in Frameworks */,
+				712370B02C6C0D37002BFD78 /* MoEngageMessaging.xcframework in Frameworks */,
+				712370AE2C6C0D36002BFD78 /* MoEngageCore.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		712209D52C510FB8006583AC = {
+			isa = PBXGroup;
+			children = (
+				7183DDF72C5A4F0C00488A07 /* Package.swift */,
+				71220A922C5110BC006583AC /* OlaMapCore.podspec */,
+				71220A912C5110BC006583AC /* README.md */,
+				712209E02C510FB8006583AC /* OlaMapCoreExample */,
+				712209DF2C510FB8006583AC /* Products */,
+				71220ACF2C5114F7006583AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		712209DF2C510FB8006583AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				712209DE2C510FB8006583AC /* OlaMapCoreExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		712209E02C510FB8006583AC /* OlaMapCoreExample */ = {
+			isa = PBXGroup;
+			children = (
+				712370992C6C0D25002BFD78 /* Framework */,
+				71220AE52C511AB0006583AC /* Usecases */,
+				71763CB42C513C6000964703 /* Utils */,
+				712209E12C510FB8006583AC /* AppDelegate.swift */,
+				712209E32C510FB8006583AC /* SceneDelegate.swift */,
+				712209E52C510FB8006583AC /* ViewController.swift */,
+				71763CB72C513DE200964703 /* GenericCell.swift */,
+				712209EA2C510FBA006583AC /* Assets.xcassets */,
+				712209EC2C510FBA006583AC /* LaunchScreen.storyboard */,
+				712209EF2C510FBA006583AC /* Info.plist */,
+				71763CB22C513C0800964703 /* AppEnvironment.swift */,
+			);
+			path = OlaMapCoreExample;
+			sourceTree = "<group>";
+		};
+		71220ACF2C5114F7006583AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7111BBEF2C63B5DC00D36895 /* OlaMapCore.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71220AE52C511AB0006583AC /* Usecases */ = {
+			isa = PBXGroup;
+			children = (
+				71220AE82C511AD0006583AC /* AnnotationViewController.swift */,
+				71220AEB2C511AD0006583AC /* MapViewController.swift */,
+				71220AE72C511AD0006583AC /* PolygonViewController.swift */,
+				71220AEA2C511AD0006583AC /* PolylineViewController.swift */,
+				71A31CB12C528D4B00798392 /* SegmentedPolyline.swift */,
+				71A31CB42C52945800798392 /* CameraViewController.swift */,
+				71F1F0D22C6260210046C389 /* InfoWindowViewController.swift */,
+				71F1F2002C637BB50046C389 /* MapEventViewController.swift */,
+			);
+			path = Usecases;
+			sourceTree = "<group>";
+		};
+		712370992C6C0D25002BFD78 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				7123709A2C6C0D25002BFD78 /* MoEngageAnalytics.xcframework */,
+				7123709B2C6C0D25002BFD78 /* MoEngageSDK.xcframework */,
+				7123709C2C6C0D25002BFD78 /* MoEngageObjCUtils.xcframework */,
+				7123709D2C6C0D25002BFD78 /* OlaMapCore.xcframework */,
+				7123709E2C6C0D25002BFD78 /* MoEngageCore.xcframework */,
+				7123709F2C6C0D25002BFD78 /* MoEngageMessaging.xcframework */,
+				712370A02C6C0D25002BFD78 /* MoEngageSecurity.xcframework */,
+				712370A12C6C0D25002BFD78 /* MapLibre.xcframework */,
+			);
+			path = Framework;
+			sourceTree = SOURCE_ROOT;
+		};
+		71763CB42C513C6000964703 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				71763CB52C513C6B00964703 /* Utility.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		712209DD2C510FB8006583AC /* OlaMapCoreExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71220A082C510FBA006583AC /* Build configuration list for PBXNativeTarget "OlaMapCoreExample" */;
+			buildPhases = (
+				712209DA2C510FB8006583AC /* Sources */,
+				712209DB2C510FB8006583AC /* Frameworks */,
+				712209DC2C510FB8006583AC /* Resources */,
+				71220ABB2C5114C8006583AC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OlaMapCoreExample;
+			productName = OlaMapCoreExample;
+			productReference = 712209DE2C510FB8006583AC /* OlaMapCoreExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		712209D62C510FB8006583AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					712209DD2C510FB8006583AC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 712209D92C510FB8006583AC /* Build configuration list for PBXProject "OlaMapCoreExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 712209D52C510FB8006583AC;
+			productRefGroup = 712209DF2C510FB8006583AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				712209DD2C510FB8006583AC /* OlaMapCoreExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		712209DC2C510FB8006583AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712209EB2C510FBA006583AC /* Assets.xcassets in Resources */,
+				712209EE2C510FBA006583AC /* Base in Resources */,
+				71220A942C5110BC006583AC /* OlaMapCore.podspec in Resources */,
+				71220A932C5110BC006583AC /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		712209DA2C510FB8006583AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71763CB32C513C0800964703 /* AppEnvironment.swift in Sources */,
+				71763CB62C513C6B00964703 /* Utility.swift in Sources */,
+				71A31CB52C52945800798392 /* CameraViewController.swift in Sources */,
+				71F1F2012C637BB50046C389 /* MapEventViewController.swift in Sources */,
+				71F1F0D32C6260210046C389 /* InfoWindowViewController.swift in Sources */,
+				71220AED2C511AD0006583AC /* PolygonViewController.swift in Sources */,
+				71A31CB22C528D4B00798392 /* SegmentedPolyline.swift in Sources */,
+				71220AEE2C511AD0006583AC /* AnnotationViewController.swift in Sources */,
+				71220AF12C511AD0006583AC /* MapViewController.swift in Sources */,
+				712209E62C510FB8006583AC /* ViewController.swift in Sources */,
+				712209E22C510FB8006583AC /* AppDelegate.swift in Sources */,
+				71763CB82C513DE200964703 /* GenericCell.swift in Sources */,
+				712209E42C510FB8006583AC /* SceneDelegate.swift in Sources */,
+				71220AF02C511AD0006583AC /* PolylineViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		712209EC2C510FBA006583AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				712209ED2C510FBA006583AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71220A062C510FBA006583AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71220A072C510FBA006583AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71220A092C510FBA006583AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = STV2VP7XA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OlaMapCoreExample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "OlaMap Core Example";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.9;
+				PRODUCT_BUNDLE_IDENTIFIER = io.olamaps.app.platform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "OlaMap App Platform";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		71220A0A2C510FBA006583AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = STV2VP7XA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OlaMapCoreExample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "OlaMap Core Example";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.9;
+				PRODUCT_BUNDLE_IDENTIFIER = io.olamaps.app.platform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "OlaMap App Platform";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		712209D92C510FB8006583AC /* Build configuration list for PBXProject "OlaMapCoreExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71220A062C510FBA006583AC /* Debug */,
+				71220A072C510FBA006583AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71220A082C510FBA006583AC /* Build configuration list for PBXNativeTarget "OlaMapCoreExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71220A092C510FBA006583AC /* Debug */,
+				71220A0A2C510FBA006583AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 712209D62C510FB8006583AC /* Project object */;
+}
