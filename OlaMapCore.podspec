@@ -11,14 +11,14 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '13.0'
 
   spec.ios.vendored_frameworks =
-    "Framework/OlaMapCore.xcframework",
-    "Framework/MapLibre.xcframework",
-    "Framework/MoEngageAnalytics.xcframework",
-    "Framework/MoEngageCore.xcframework",
-    "Framework/MoEngageMessaging.xcframework",
-    "Framework/MoEngageObjCUtils.xcframework",
-    "Framework/MoEngageSDK.xcframework",
-    "Framework/MoEngageSecurity.xcframework"
+    "Frameworks/OlaMapCore.xcframework",
+    "Frameworks/MapLibre.xcframework",
+    "Frameworks/MoEngageAnalytics.xcframework",
+    "Frameworks/MoEngageCore.xcframework",
+    "Frameworks/MoEngageMessaging.xcframework",
+    "Frameworks/MoEngageObjCUtils.xcframework",
+    "Frameworks/MoEngageSDK.xcframework",
+    "Frameworks/MoEngageSecurity.xcframework"
 
 
 end
