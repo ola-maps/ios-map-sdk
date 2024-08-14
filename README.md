@@ -163,6 +163,3 @@ self.olaMap.showTrafficPolyline(encodedPolyline: polylineEncodedString, travelAd
     print("Segmented PolylineID: \(polylineID)")
 }
 ```
-
-## Developer Note
-You need to go to Example and run `xcodeproj` and try to run the Project. If you want to make any changes in OlaMapCore Library, you can do so. Make sure, run `sh builder.sh` after making the changes.
