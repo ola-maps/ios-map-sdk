@@ -14,12 +14,14 @@ final class Utility {
     }
     
     class func getWorkspaceID() -> String {
+        fatalError("Get Workspace ID from Dahsboard")
         // Get This Workspace ID from the Platfrom Dashboard
         // https://maps.olakrutrim.com/
         return "WORKSPACE_ID"
     }
     
     class func getAPIKey() -> String {
+        fatalError("Get API KEY from Dahsboard")
         // Get This Workspace ID from the Platform Dashboard
         // https://maps.olakrutrim.com/
         return "API_KEY"
