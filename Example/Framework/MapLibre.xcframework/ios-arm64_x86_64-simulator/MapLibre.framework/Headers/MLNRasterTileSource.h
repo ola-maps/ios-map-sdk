@@ -42,13 +42,12 @@ FOUNDATION_EXTERN MLN_EXPORT const MLNTileSourceOption MLNTileSourceOptionTileSi
  ### Example
 
  ```swift
- let source = MLNRasterTileSource(identifier: "clouds", tileURLTemplates:
- ["https://example.com/raster-tiles/{z}/{x}/{y}.png"], options: [ .minimumZoomLevel: 9,
+ let source = MLNRasterTileSource(identifier: "clouds", tileURLTemplates: ["https://example.com/raster-tiles/{z}/{x}/{y}.png"], options: [
+     .minimumZoomLevel: 9,
      .maximumZoomLevel: 16,
      .tileSize: 512,
      .attributionInfos: [
-         MLNAttributionInfo(title: NSAttributedString(string: "© Mapbox"), url: URL(string:
- "https://mapbox.com"))
+         MLNAttributionInfo(title: NSAttributedString(string: "© Mapbox"), url: URL(string: "https://mapbox.com"))
      ]
  ])
  mapView.style?.addSource(source)
@@ -86,8 +85,7 @@ MLN_EXPORT
     source’s contents and other metadata.
  @return An initialized raster tile source.
  */
-- (instancetype)initWithIdentifier:(NSString *)identifier
-                  configurationURL:(NSURL *)configurationURL;
+- (instancetype)initWithIdentifier:(NSString *)identifier configurationURL:(NSURL *)configurationURL;
 
 /**
  Returns a raster tile source initialized with an identifier, configuration URL,
@@ -109,9 +107,7 @@ MLN_EXPORT
     documentation for details.
  @return An initialized raster tile source.
  */
-- (instancetype)initWithIdentifier:(NSString *)identifier
-                  configurationURL:(NSURL *)configurationURL
-                          tileSize:(CGFloat)tileSize NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithIdentifier:(NSString *)identifier configurationURL:(NSURL *)configurationURL tileSize:(CGFloat)tileSize NS_DESIGNATED_INITIALIZER;
 
 /**
  Returns a raster tile source initialized an identifier, tile URL templates, and
@@ -133,10 +129,7 @@ MLN_EXPORT
     the default values.
  @return An initialized tile source.
  */
-- (instancetype)initWithIdentifier:(NSString *)identifier
-                  tileURLTemplates:(NSArray<NSString *> *)tileURLTemplates
-                           options:(nullable NSDictionary<MLNTileSourceOption, id> *)options
-    NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithIdentifier:(NSString *)identifier tileURLTemplates:(NSArray<NSString *> *)tileURLTemplates options:(nullable NSDictionary<MLNTileSourceOption, id> *)options NS_DESIGNATED_INITIALIZER;
 
 @end
 

@@ -1,180 +1,180 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/soumya.mahunt/Library/Developer/Xcode/DerivedData/MoEngage-ggsjbihhgwfbsnfxgdqbiqhfflhf/Build/Intermediates.noindex/ArchiveIntermediates/MoEngageObjCUtils/InstallationBuildProductsLocation/Library/Frameworks/MoEngageObjCUtils.framework/MoEngageObjCUtils'
+binary-path:     '/Users/runner/Library/Developer/Xcode/DerivedData/Examples-aqldvbyecrhyepdpcvdpcgtmctwu/Build/Intermediates.noindex/ArchiveIntermediates/All iOS/InstallationBuildProductsLocation/Library/Frameworks/MoEngageObjCUtils.framework/MoEngageObjCUtils'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x54AA8, size: 0x8, addend: 0x0, symName: _MoEngageObjCUtilsVersionString, symObjAddr: 0x0, symBinAddr: 0xC738, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x54ADD, size: 0x8, addend: 0x0, symName: _MoEngageObjCUtilsVersionNumber, symObjAddr: 0x38, symBinAddr: 0xC770, symSize: 0x0 }
-  - { offsetInCU: 0x27, offset: 0x54B1A, size: 0x8, addend: 0x0, symName: '-[MOZeroingWeakContainer object]', symObjAddr: 0x0, symBinAddr: 0x4D2C, symSize: 0x18 }
-  - { offsetInCU: 0x3A, offset: 0x54B2D, size: 0x8, addend: 0x0, symName: '+[MOAppDelegateObserver sharedInstance]', symObjAddr: 0x2C, symBinAddr: 0x4D58, symSize: 0x40 }
-  - { offsetInCU: 0x64, offset: 0x54B57, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x37D38, symBinAddr: 0x15E50, symSize: 0x0 }
-  - { offsetInCU: 0x7A, offset: 0x54B6D, size: 0x8, addend: 0x0, symName: _sharedInstance.once, symObjAddr: 0x37D40, symBinAddr: 0x15E58, symSize: 0x0 }
-  - { offsetInCU: 0xE6, offset: 0x54BD9, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler interceptors]', symObjAddr: 0xE1C, symBinAddr: 0x5B48, symSize: 0x40 }
-  - { offsetInCU: 0x112, offset: 0x54C05, size: 0x8, addend: 0x0, symName: _interceptors.onceToken, symObjAddr: 0x37D70, symBinAddr: 0x15E88, symSize: 0x0 }
-  - { offsetInCU: 0x129, offset: 0x54C1C, size: 0x8, addend: 0x0, symName: _interceptors.sInterceptors, symObjAddr: 0x37D78, symBinAddr: 0x15E90, symSize: 0x0 }
-  - { offsetInCU: 0x185, offset: 0x54C78, size: 0x8, addend: 0x0, symName: _MOEOriginalAppDelegate, symObjAddr: 0x37D48, symBinAddr: 0x15E60, symSize: 0x0 }
-  - { offsetInCU: 0x1C4, offset: 0x54CB7, size: 0x8, addend: 0x0, symName: _MOEOriginalAppDelegateClass, symObjAddr: 0x37D68, symBinAddr: 0x15E80, symSize: 0x0 }
-  - { offsetInCU: 0x1E3, offset: 0x54CD6, size: 0x8, addend: 0x0, symName: _MOEAppDelegateSubclass, symObjAddr: 0x37D60, symBinAddr: 0x15E78, symSize: 0x0 }
-  - { offsetInCU: 0x1F9, offset: 0x54CEC, size: 0x8, addend: 0x0, symName: _sProxyAppDelegateOnceToken, symObjAddr: 0x37D50, symBinAddr: 0x15E68, symSize: 0x0 }
-  - { offsetInCU: 0x20F, offset: 0x54D02, size: 0x8, addend: 0x0, symName: _sProxyAppDelegateRemoteNotificationOnceToken, symObjAddr: 0x37D58, symBinAddr: 0x15E70, symSize: 0x0 }
-  - { offsetInCU: 0x233, offset: 0x54D26, size: 0x8, addend: 0x0, symName: _kMOERealIMPBySelectorKey, symObjAddr: 0x61F8, symBinAddr: 0x100C0, symSize: 0x0 }
-  - { offsetInCU: 0x258, offset: 0x54D4B, size: 0x8, addend: 0x0, symName: _kMOERealClassKey, symObjAddr: 0x6220, symBinAddr: 0x100E8, symSize: 0x0 }
-  - { offsetInCU: 0x2F9, offset: 0x54DEC, size: 0x8, addend: 0x0, symName: '-[MOZeroingWeakContainer object]', symObjAddr: 0x0, symBinAddr: 0x4D2C, symSize: 0x18 }
-  - { offsetInCU: 0x330, offset: 0x54E23, size: 0x8, addend: 0x0, symName: '-[MOZeroingWeakContainer setObject:]', symObjAddr: 0x18, symBinAddr: 0x4D44, symSize: 0xC }
-  - { offsetInCU: 0x371, offset: 0x54E64, size: 0x8, addend: 0x0, symName: '-[MOZeroingWeakContainer .cxx_destruct]', symObjAddr: 0x24, symBinAddr: 0x4D50, symSize: 0x8 }
-  - { offsetInCU: 0x3EB, offset: 0x54EDE, size: 0x8, addend: 0x0, symName: '___39+[MOAppDelegateObserver sharedInstance]_block_invoke', symObjAddr: 0x6C, symBinAddr: 0x4D98, symSize: 0x30 }
-  - { offsetInCU: 0x412, offset: 0x54F05, size: 0x8, addend: 0x0, symName: '-[MOAppDelegateObserver observeUIApplication]', symObjAddr: 0x9C, symBinAddr: 0x4DC8, symSize: 0x64 }
-  - { offsetInCU: 0x445, offset: 0x54F38, size: 0x8, addend: 0x0, symName: '-[MOAppDelegateObserver observeValueForKeyPath:ofObject:change:context:]', symObjAddr: 0x100, symBinAddr: 0x4E2C, symSize: 0x108 }
-  - { offsetInCU: 0x4DF, offset: 0x54FD2, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler isAppDelegateProxyEnabled]', symObjAddr: 0x208, symBinAddr: 0x4F34, symSize: 0xC }
-  - { offsetInCU: 0x512, offset: 0x55005, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler registerAppDelegateInterceptor:]', symObjAddr: 0x214, symBinAddr: 0x4F40, symSize: 0x190 }
-  - { offsetInCU: 0x575, offset: 0x55068, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler unregisterAppDelegateInterceptorWithID:]', symObjAddr: 0x3A4, symBinAddr: 0x50D0, symSize: 0x13C }
-  - { offsetInCU: 0x5C4, offset: 0x550B7, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler proxyOriginalDelegate]', symObjAddr: 0x4E0, symBinAddr: 0x520C, symSize: 0x48 }
-  - { offsetInCU: 0x60E, offset: 0x55101, size: 0x8, addend: 0x0, symName: '___52+[MoEngageAppDelegateSwizzler proxyOriginalDelegate]_block_invoke', symObjAddr: 0x528, symBinAddr: 0x5254, symSize: 0x60 }
-  - { offsetInCU: 0x654, offset: 0x55147, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler proxyOriginalDelegateIncludingAPNSMethods]', symObjAddr: 0x588, symBinAddr: 0x52B4, symSize: 0x90 }
-  - { offsetInCU: 0x6AD, offset: 0x551A0, size: 0x8, addend: 0x0, symName: '___72+[MoEngageAppDelegateSwizzler proxyOriginalDelegateIncludingAPNSMethods]_block_invoke', symObjAddr: 0x618, symBinAddr: 0x5344, symSize: 0xE8 }
-  - { offsetInCU: 0x773, offset: 0x55266, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler sharedApplication]', symObjAddr: 0x700, symBinAddr: 0x542C, symSize: 0x70 }
-  - { offsetInCU: 0x81B, offset: 0x5530E, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler createSubclassWithObject:]', symObjAddr: 0x770, symBinAddr: 0x549C, symSize: 0x444 }
-  - { offsetInCU: 0xA0E, offset: 0x55501, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler proxyRemoteNotificationsMethodsWithAppDelegateSubClass:realClass:appDelegate:realImplementationsBySelector:]', symObjAddr: 0xBB4, symBinAddr: 0x58E0, symSize: 0x188 }
-  - { offsetInCU: 0xB46, offset: 0x55639, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler reassignAppDelegate]', symObjAddr: 0xD3C, symBinAddr: 0x5A68, symSize: 0xE0 }
-  - { offsetInCU: 0xB8B, offset: 0x5567E, size: 0x8, addend: 0x0, symName: '___43+[MoEngageAppDelegateSwizzler interceptors]_block_invoke', symObjAddr: 0xE5C, symBinAddr: 0x5B88, symSize: 0x30 }
-  - { offsetInCU: 0xBB4, offset: 0x556A7, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler originalImplementationForSelector:object:]', symObjAddr: 0xE8C, symBinAddr: 0x5BB8, symSize: 0x80 }
-  - { offsetInCU: 0xC4A, offset: 0x5573D, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler proxyDestinationSelector:implementationsFromSourceSelector:fromClass:toClass:realClass:storeDestinationImplementationTo:]', symObjAddr: 0xF0C, symBinAddr: 0x5C38, symSize: 0xD4 }
-  - { offsetInCU: 0xD25, offset: 0x55818, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler addInstanceMethodWithSelector:fromClass:toClass:]', symObjAddr: 0xFE0, symBinAddr: 0x5D0C, symSize: 0x10 }
-  - { offsetInCU: 0xD88, offset: 0x5587B, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler addInstanceMethodWithDestinationSelector:withImplementationFromSourceSelector:fromClass:toClass:]', symObjAddr: 0xFF0, symBinAddr: 0x5D1C, symSize: 0xE0 }
-  - { offsetInCU: 0xED5, offset: 0x559C8, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler implementationOfMethodSelector:fromClass:]', symObjAddr: 0x10D0, symBinAddr: 0x5DFC, symSize: 0x1C }
-  - { offsetInCU: 0xF58, offset: 0x55A4B, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler notifyInterceptorsWithMethodSelector:callback:]', symObjAddr: 0x10EC, symBinAddr: 0x5E18, symSize: 0x150 }
-  - { offsetInCU: 0xFDE, offset: 0x55AD1, size: 0x8, addend: 0x0, symName: '___77+[MoEngageAppDelegateSwizzler notifyInterceptorsWithMethodSelector:callback:]_block_invoke', symObjAddr: 0x123C, symBinAddr: 0x5F68, symSize: 0xF4 }
-  - { offsetInCU: 0x1099, offset: 0x55B8C, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x1330, symBinAddr: 0x605C, symSize: 0x10 }
-  - { offsetInCU: 0x10C2, offset: 0x55BB5, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x1340, symBinAddr: 0x606C, symSize: 0x8 }
-  - { offsetInCU: 0x10E1, offset: 0x55BD4, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateSwizzler fakeDescription]', symObjAddr: 0x1348, symBinAddr: 0x6074, symSize: 0x54 }
-  - { offsetInCU: 0x1138, offset: 0x55C2B, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateSwizzler application:openURL:options:]', symObjAddr: 0x139C, symBinAddr: 0x60C8, symSize: 0x1CC }
-  - { offsetInCU: 0x11F8, offset: 0x55CEB, size: 0x8, addend: 0x0, symName: '___59-[MoEngageAppDelegateSwizzler application:openURL:options:]_block_invoke', symObjAddr: 0x1568, symBinAddr: 0x6294, symSize: 0x40 }
-  - { offsetInCU: 0x127A, offset: 0x55D6D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56r, symObjAddr: 0x15A8, symBinAddr: 0x62D4, symSize: 0x44 }
-  - { offsetInCU: 0x12A3, offset: 0x55D96, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56r, symObjAddr: 0x15EC, symBinAddr: 0x6318, symSize: 0x3C }
-  - { offsetInCU: 0x12C2, offset: 0x55DB5, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateSwizzler application:openURL:sourceApplication:annotation:]', symObjAddr: 0x1628, symBinAddr: 0x6354, symSize: 0x200 }
-  - { offsetInCU: 0x1393, offset: 0x55E86, size: 0x8, addend: 0x0, symName: '___80-[MoEngageAppDelegateSwizzler application:openURL:sourceApplication:annotation:]_block_invoke', symObjAddr: 0x1828, symBinAddr: 0x6554, symSize: 0x40 }
-  - { offsetInCU: 0x1426, offset: 0x55F19, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64r, symObjAddr: 0x1868, symBinAddr: 0x6594, symSize: 0x4C }
-  - { offsetInCU: 0x144F, offset: 0x55F42, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64r, symObjAddr: 0x18B4, symBinAddr: 0x65E0, symSize: 0x44 }
-  - { offsetInCU: 0x146E, offset: 0x55F61, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateSwizzler application:handleEventsForBackgroundURLSession:completionHandler:]', symObjAddr: 0x18F8, symBinAddr: 0x6624, symSize: 0x164 }
-  - { offsetInCU: 0x1514, offset: 0x56007, size: 0x8, addend: 0x0, symName: '___97-[MoEngageAppDelegateSwizzler application:handleEventsForBackgroundURLSession:completionHandler:]_block_invoke', symObjAddr: 0x1A5C, symBinAddr: 0x6788, symSize: 0x10 }
-  - { offsetInCU: 0x1585, offset: 0x56078, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b, symObjAddr: 0x1A6C, symBinAddr: 0x6798, symSize: 0x3C }
-  - { offsetInCU: 0x15AE, offset: 0x560A1, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x1AA8, symBinAddr: 0x67D4, symSize: 0x30 }
-  - { offsetInCU: 0x15CD, offset: 0x560C0, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateSwizzler application:continueUserActivity:restorationHandler:]', symObjAddr: 0x1AD8, symBinAddr: 0x6804, symSize: 0x1CC }
-  - { offsetInCU: 0x168D, offset: 0x56180, size: 0x8, addend: 0x0, symName: '___83-[MoEngageAppDelegateSwizzler application:continueUserActivity:restorationHandler:]_block_invoke', symObjAddr: 0x1CA4, symBinAddr: 0x69D0, symSize: 0x40 }
-  - { offsetInCU: 0x170F, offset: 0x56202, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b56r, symObjAddr: 0x1CE4, symBinAddr: 0x6A10, symSize: 0x4C }
-  - { offsetInCU: 0x1738, offset: 0x5622B, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateSwizzler application:donor_didRegisterForRemoteNotificationsWithDeviceToken:]', symObjAddr: 0x1D30, symBinAddr: 0x6A5C, symSize: 0x134 }
-  - { offsetInCU: 0x17DB, offset: 0x562CE, size: 0x8, addend: 0x0, symName: '___98-[MoEngageAppDelegateSwizzler application:donor_didRegisterForRemoteNotificationsWithDeviceToken:]_block_invoke', symObjAddr: 0x1E64, symBinAddr: 0x6B90, symSize: 0x9C }
-  - { offsetInCU: 0x186C, offset: 0x5635F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x1F00, symBinAddr: 0x6C2C, symSize: 0x28 }
-  - { offsetInCU: 0x1895, offset: 0x56388, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x1F28, symBinAddr: 0x6C54, symSize: 0x28 }
-  - { offsetInCU: 0x18B4, offset: 0x563A7, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateSwizzler application:donor_didFailToRegisterForRemoteNotificationsWithError:]', symObjAddr: 0x1F50, symBinAddr: 0x6C7C, symSize: 0x134 }
-  - { offsetInCU: 0x1957, offset: 0x5644A, size: 0x8, addend: 0x0, symName: '___98-[MoEngageAppDelegateSwizzler application:donor_didFailToRegisterForRemoteNotificationsWithError:]_block_invoke', symObjAddr: 0x2084, symBinAddr: 0x6DB0, symSize: 0x9C }
-  - { offsetInCU: 0x19E8, offset: 0x564DB, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateSwizzler application:donor_didReceiveRemoteNotification:fetchCompletionHandler:]', symObjAddr: 0x2120, symBinAddr: 0x6E4C, symSize: 0x2BC }
-  - { offsetInCU: 0x1B36, offset: 0x56629, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x23DC, symBinAddr: 0x7108, symSize: 0x10 }
-  - { offsetInCU: 0x1B5B, offset: 0x5664E, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x23EC, symBinAddr: 0x7118, symSize: 0x8 }
-  - { offsetInCU: 0x1B7A, offset: 0x5666D, size: 0x8, addend: 0x0, symName: '___101-[MoEngageAppDelegateSwizzler application:donor_didReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke', symObjAddr: 0x23F4, symBinAddr: 0x7120, symSize: 0x6C }
-  - { offsetInCU: 0x1BF7, offset: 0x566EA, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r40r, symObjAddr: 0x2460, symBinAddr: 0x718C, symSize: 0x3C }
-  - { offsetInCU: 0x1C20, offset: 0x56713, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r40r, symObjAddr: 0x249C, symBinAddr: 0x71C8, symSize: 0x30 }
-  - { offsetInCU: 0x1C3F, offset: 0x56732, size: 0x8, addend: 0x0, symName: '___101-[MoEngageAppDelegateSwizzler application:donor_didReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke.246', symObjAddr: 0x24CC, symBinAddr: 0x71F8, symSize: 0xB8 }
-  - { offsetInCU: 0x1D00, offset: 0x567F3, size: 0x8, addend: 0x0, symName: '___101-[MoEngageAppDelegateSwizzler application:donor_didReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke.247', symObjAddr: 0x2584, symBinAddr: 0x72B0, symSize: 0x150 }
-  - { offsetInCU: 0x1DD5, offset: 0x568C8, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40r, symObjAddr: 0x26D4, symBinAddr: 0x7400, symSize: 0x3C }
-  - { offsetInCU: 0x1DFE, offset: 0x568F1, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0x2710, symBinAddr: 0x743C, symSize: 0x2C }
-  - { offsetInCU: 0x1E1D, offset: 0x56910, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateSwizzler application:donor_didReceiveRemoteNotification:]', symObjAddr: 0x273C, symBinAddr: 0x7468, symSize: 0x134 }
-  - { offsetInCU: 0x1EC0, offset: 0x569B3, size: 0x8, addend: 0x0, symName: '___78-[MoEngageAppDelegateSwizzler application:donor_didReceiveRemoteNotification:]_block_invoke', symObjAddr: 0x2870, symBinAddr: 0x759C, symSize: 0x9C }
-  - { offsetInCU: 0x1F51, offset: 0x56A44, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler appDelegateInvocationForSelector:]', symObjAddr: 0x290C, symBinAddr: 0x7638, symSize: 0x80 }
-  - { offsetInCU: 0x1FF3, offset: 0x56AE6, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler proxyAppDelegate:]', symObjAddr: 0x298C, symBinAddr: 0x76B8, symSize: 0x1D8 }
-  - { offsetInCU: 0x2061, offset: 0x56B54, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler clearInterceptors]', symObjAddr: 0x2B64, symBinAddr: 0x7890, symSize: 0x30 }
-  - { offsetInCU: 0x2095, offset: 0x56B88, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler resetProxyOriginalDelegateOnceToken]', symObjAddr: 0x2B94, symBinAddr: 0x78C0, symSize: 0x14 }
-  - { offsetInCU: 0x20C5, offset: 0x56BB8, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler originalDelegate]', symObjAddr: 0x2BA8, symBinAddr: 0x78D4, symSize: 0xC }
-  - { offsetInCU: 0x27, offset: 0x577C1, size: 0x8, addend: 0x0, symName: '+[MoEngageProxyUtils getAppDelegateProxyInfoPlistKey]', symObjAddr: 0x0, symBinAddr: 0x78E0, symSize: 0xC }
-  - { offsetInCU: 0x46, offset: 0x577E0, size: 0x8, addend: 0x0, symName: _moAppDelegateProxyConfigured, symObjAddr: 0x4EE3, symBinAddr: 0x15E98, symSize: 0x0 }
-  - { offsetInCU: 0x6C, offset: 0x57806, size: 0x8, addend: 0x0, symName: '+[MoEngageProxyUtils getAppDelegateProxyInfoPlistKey]', symObjAddr: 0x0, symBinAddr: 0x78E0, symSize: 0xC }
-  - { offsetInCU: 0x9F, offset: 0x57839, size: 0x8, addend: 0x0, symName: '+[MoEngageProxyUtils isAppDelegateProxyEnabled]', symObjAddr: 0xC, symBinAddr: 0x78EC, symSize: 0xB0 }
-  - { offsetInCU: 0x102, offset: 0x5789C, size: 0x8, addend: 0x0, symName: '+[MoEngageProxyUtils isAppDelegateProxyConfigured]', symObjAddr: 0xBC, symBinAddr: 0x799C, symSize: 0xC }
-  - { offsetInCU: 0x135, offset: 0x578CF, size: 0x8, addend: 0x0, symName: '+[MoEngageProxyUtils setAppDelegateProxyConfigured]', symObjAddr: 0xC8, symBinAddr: 0x79A8, symSize: 0x10 }
-  - { offsetInCU: 0x27, offset: 0x57974, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateProxy canSwizzleMethods]', symObjAddr: 0x0, symBinAddr: 0x79B8, symSize: 0xC }
-  - { offsetInCU: 0x3A, offset: 0x57987, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateProxy sharedProxy]', symObjAddr: 0xC, symBinAddr: 0x79C4, symSize: 0x40 }
-  - { offsetInCU: 0x64, offset: 0x579B1, size: 0x8, addend: 0x0, symName: _sharedProxy.proxy, symObjAddr: 0x2D2B0, symBinAddr: 0x15EA0, symSize: 0x0 }
-  - { offsetInCU: 0x7A, offset: 0x579C7, size: 0x8, addend: 0x0, symName: _sharedProxy.onceToken, symObjAddr: 0x2D2B8, symBinAddr: 0x15EA8, symSize: 0x0 }
-  - { offsetInCU: 0x22A, offset: 0x57B77, size: 0x8, addend: 0x0, symName: _UserNotificationObserverContext, symObjAddr: 0x3788, symBinAddr: 0x15C00, symSize: 0x0 }
-  - { offsetInCU: 0x379, offset: 0x57CC6, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateProxy canSwizzleMethods]', symObjAddr: 0x0, symBinAddr: 0x79B8, symSize: 0xC }
-  - { offsetInCU: 0x3E6, offset: 0x57D33, size: 0x8, addend: 0x0, symName: '___39+[MoEngageAppDelegateProxy sharedProxy]_block_invoke', symObjAddr: 0x4C, symBinAddr: 0x7A04, symSize: 0x30 }
-  - { offsetInCU: 0x40D, offset: 0x57D5A, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy init]', symObjAddr: 0x7C, symBinAddr: 0x7A34, symSize: 0x9C }
-  - { offsetInCU: 0x444, offset: 0x57D91, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy dealloc]', symObjAddr: 0x118, symBinAddr: 0x7AD0, symSize: 0x84 }
-  - { offsetInCU: 0x477, offset: 0x57DC4, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy swizzleMethodsIfPossible]', symObjAddr: 0x19C, symBinAddr: 0x7B54, symSize: 0xC0 }
-  - { offsetInCU: 0x511, offset: 0x57E5E, size: 0x8, addend: 0x0, symName: _getNamedPropertyFromObject, symObjAddr: 0x25C, symBinAddr: 0x7C14, symSize: 0xB4 }
-  - { offsetInCU: 0x5A3, offset: 0x57EF0, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy unswizzleAllMethods]', symObjAddr: 0x310, symBinAddr: 0x7CC8, symSize: 0x250 }
-  - { offsetInCU: 0x66E, offset: 0x57FBB, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy listenForDelegateChangesInUserNotificationCenter:]', symObjAddr: 0x560, symBinAddr: 0x7F18, symSize: 0xC0 }
-  - { offsetInCU: 0x729, offset: 0x58076, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy swizzleUserNotificationCenterDelegate:]', symObjAddr: 0x620, symBinAddr: 0x7FD8, symSize: 0x124 }
-  - { offsetInCU: 0x7D5, offset: 0x58122, size: 0x8, addend: 0x0, symName: _moe_swizzle_willPresentNotificationWithHandler, symObjAddr: 0x744, symBinAddr: 0x80FC, symSize: 0x1E8 }
-  - { offsetInCU: 0x881, offset: 0x581CE, size: 0x8, addend: 0x0, symName: _moe_swizzle_didReceiveNotificationResponseWithHandler, symObjAddr: 0x92C, symBinAddr: 0x82E4, symSize: 0x244 }
-  - { offsetInCU: 0x96B, offset: 0x582B8, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy unswizzleUserNotificationCenterDelegate:]', symObjAddr: 0xB70, symBinAddr: 0x8528, symSize: 0x100 }
-  - { offsetInCU: 0x9EA, offset: 0x58337, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy addDelegateObserverToUserNotificationCenter:]', symObjAddr: 0xC70, symBinAddr: 0x8628, symSize: 0x1D8 }
-  - { offsetInCU: 0xA7B, offset: 0x583C8, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy removeUserNotificationCenterDelegateObserver]', symObjAddr: 0xE48, symBinAddr: 0x8800, symSize: 0x204 }
-  - { offsetInCU: 0xAE9, offset: 0x58436, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy observeValueForKeyPath:ofObject:change:context:]', symObjAddr: 0x104C, symBinAddr: 0x8A04, symSize: 0x1A8 }
-  - { offsetInCU: 0xB99, offset: 0x584E6, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy saveOriginalImplementation:forSelector:]', symObjAddr: 0x11F4, symBinAddr: 0x8BAC, symSize: 0xA0 }
-  - { offsetInCU: 0xC29, offset: 0x58576, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy originalImplementationForSelector:]', symObjAddr: 0x1294, symBinAddr: 0x8C4C, symSize: 0xA0 }
-  - { offsetInCU: 0xCAE, offset: 0x585FB, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy trackSwizzledSelector:ofClass:]', symObjAddr: 0x1334, symBinAddr: 0x8CEC, symSize: 0x148 }
-  - { offsetInCU: 0xD66, offset: 0x586B3, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy removeImplementationForSelector:]', symObjAddr: 0x147C, symBinAddr: 0x8E34, symSize: 0x58 }
-  - { offsetInCU: 0xDCA, offset: 0x58717, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy swizzleSelector:inClass:withImplementation:inProtocol:]', symObjAddr: 0x14D4, symBinAddr: 0x8E8C, symSize: 0x168 }
-  - { offsetInCU: 0xF87, offset: 0x588D4, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy unswizzleSelector:inClass:]', symObjAddr: 0x163C, symBinAddr: 0x8FF4, symSize: 0x98 }
-  - { offsetInCU: 0x1049, offset: 0x58996, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy nonExistantMethodImplementationForClass:]', symObjAddr: 0x16D4, symBinAddr: 0x908C, symSize: 0x30 }
-  - { offsetInCU: 0x10E0, offset: 0x58A2D, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy application:openURL:sourceApplication:annotation:]', symObjAddr: 0x1704, symBinAddr: 0x90BC, symSize: 0xD0 }
-  - { offsetInCU: 0x115C, offset: 0x58AA9, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy application:openURL:options:]', symObjAddr: 0x17D4, symBinAddr: 0x918C, symSize: 0xB8 }
-  - { offsetInCU: 0x11C7, offset: 0x58B14, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy application:continueUserActivity:restorationHandler:]', symObjAddr: 0x188C, symBinAddr: 0x9244, symSize: 0xCC }
-  - { offsetInCU: 0x124A, offset: 0x58B97, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy application:didReceiveRemoteNotification:]', symObjAddr: 0x1958, symBinAddr: 0x9310, symSize: 0x74 }
-  - { offsetInCU: 0x129C, offset: 0x58BE9, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy application:didReceiveRemoteNotification:fetchCompletionHandler:]', symObjAddr: 0x19CC, symBinAddr: 0x9384, symSize: 0x74 }
-  - { offsetInCU: 0x12FB, offset: 0x58C48, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy application:didFailToRegisterForRemoteNotificationsWithError:]', symObjAddr: 0x1A40, symBinAddr: 0x93F8, symSize: 0x74 }
-  - { offsetInCU: 0x134D, offset: 0x58C9A, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy application:didRegisterForRemoteNotificationsWithDeviceToken:]', symObjAddr: 0x1AB4, symBinAddr: 0x946C, symSize: 0x74 }
-  - { offsetInCU: 0x139F, offset: 0x58CEC, size: 0x8, addend: 0x0, symName: ___moe_swizzle_willPresentNotificationWithHandler_block_invoke, symObjAddr: 0x1B28, symBinAddr: 0x94E0, symSize: 0x20 }
-  - { offsetInCU: 0x143E, offset: 0x58D8B, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56b, symObjAddr: 0x1B48, symBinAddr: 0x9500, symSize: 0x44 }
-  - { offsetInCU: 0x1467, offset: 0x58DB4, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x1B8C, symBinAddr: 0x9544, symSize: 0x38 }
-  - { offsetInCU: 0x1486, offset: 0x58DD3, size: 0x8, addend: 0x0, symName: ___moe_swizzle_didReceiveNotificationResponseWithHandler_block_invoke, symObjAddr: 0x1BC4, symBinAddr: 0x957C, symSize: 0x20 }
-  - { offsetInCU: 0x1525, offset: 0x58E72, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy messagingProxyDelegate]', symObjAddr: 0x1BE4, symBinAddr: 0x959C, symSize: 0x18 }
-  - { offsetInCU: 0x155C, offset: 0x58EA9, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy setMessagingProxyDelegate:]', symObjAddr: 0x1BFC, symBinAddr: 0x95B4, symSize: 0xC }
-  - { offsetInCU: 0x159D, offset: 0x58EEA, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy analyticsProxyDelegate]', symObjAddr: 0x1C08, symBinAddr: 0x95C0, symSize: 0x18 }
-  - { offsetInCU: 0x15D4, offset: 0x58F21, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy setAnalyticsProxyDelegate:]', symObjAddr: 0x1C20, symBinAddr: 0x95D8, symSize: 0xC }
-  - { offsetInCU: 0x1615, offset: 0x58F62, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy originalAppDelegateImps]', symObjAddr: 0x1C2C, symBinAddr: 0x95E4, symSize: 0x8 }
-  - { offsetInCU: 0x164C, offset: 0x58F99, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy setOriginalAppDelegateImps:]', symObjAddr: 0x1C34, symBinAddr: 0x95EC, symSize: 0xC }
-  - { offsetInCU: 0x168D, offset: 0x58FDA, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy swizzledSelectorsByClass]', symObjAddr: 0x1C40, symBinAddr: 0x95F8, symSize: 0x8 }
-  - { offsetInCU: 0x16C4, offset: 0x59011, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy setSwizzledSelectorsByClass:]', symObjAddr: 0x1C48, symBinAddr: 0x9600, symSize: 0xC }
-  - { offsetInCU: 0x1705, offset: 0x59052, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy didSwizzleMethods]', symObjAddr: 0x1C54, symBinAddr: 0x960C, symSize: 0x8 }
-  - { offsetInCU: 0x173C, offset: 0x59089, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy setDidSwizzleMethods:]', symObjAddr: 0x1C5C, symBinAddr: 0x9614, symSize: 0x8 }
-  - { offsetInCU: 0x1777, offset: 0x590C4, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy hasSwizzledUserNotificationDelegate]', symObjAddr: 0x1C64, symBinAddr: 0x961C, symSize: 0x8 }
-  - { offsetInCU: 0x17AE, offset: 0x590FB, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy setHasSwizzledUserNotificationDelegate:]', symObjAddr: 0x1C6C, symBinAddr: 0x9624, symSize: 0x8 }
-  - { offsetInCU: 0x17E9, offset: 0x59136, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy isObservingUserNotificationDelegateChanges]', symObjAddr: 0x1C74, symBinAddr: 0x962C, symSize: 0x8 }
-  - { offsetInCU: 0x1820, offset: 0x5916D, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy setIsObservingUserNotificationDelegateChanges:]', symObjAddr: 0x1C7C, symBinAddr: 0x9634, symSize: 0x8 }
-  - { offsetInCU: 0x185B, offset: 0x591A8, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy userNotificationCenter]', symObjAddr: 0x1C84, symBinAddr: 0x963C, symSize: 0x8 }
-  - { offsetInCU: 0x1892, offset: 0x591DF, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy setUserNotificationCenter:]', symObjAddr: 0x1C8C, symBinAddr: 0x9644, symSize: 0xC }
-  - { offsetInCU: 0x18D3, offset: 0x59220, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy currentUserNotificationCenterDelegate]', symObjAddr: 0x1C98, symBinAddr: 0x9650, symSize: 0x8 }
-  - { offsetInCU: 0x190A, offset: 0x59257, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy setCurrentUserNotificationCenterDelegate:]', symObjAddr: 0x1CA0, symBinAddr: 0x9658, symSize: 0xC }
-  - { offsetInCU: 0x194B, offset: 0x59298, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy appDelegateInterceptorID]', symObjAddr: 0x1CAC, symBinAddr: 0x9664, symSize: 0x8 }
-  - { offsetInCU: 0x1982, offset: 0x592CF, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy setAppDelegateInterceptorID:]', symObjAddr: 0x1CB4, symBinAddr: 0x966C, symSize: 0xC }
-  - { offsetInCU: 0x19C3, offset: 0x59310, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy .cxx_destruct]', symObjAddr: 0x1CC0, symBinAddr: 0x9678, symSize: 0x64 }
-  - { offsetInCU: 0x27, offset: 0x5965D, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary init]', symObjAddr: 0x0, symBinAddr: 0x96DC, symSize: 0x88 }
-  - { offsetInCU: 0xCB, offset: 0x59701, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary init]', symObjAddr: 0x0, symBinAddr: 0x96DC, symSize: 0x88 }
-  - { offsetInCU: 0x132, offset: 0x59768, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary description]', symObjAddr: 0x88, symBinAddr: 0x9764, symSize: 0xB4 }
-  - { offsetInCU: 0x1B4, offset: 0x597EA, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x13C, symBinAddr: 0x9818, symSize: 0x10 }
-  - { offsetInCU: 0x1D9, offset: 0x5980F, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x14C, symBinAddr: 0x9828, symSize: 0x8 }
-  - { offsetInCU: 0x1F8, offset: 0x5982E, size: 0x8, addend: 0x0, symName: '___40-[MoEngageMutableDictionary description]_block_invoke', symObjAddr: 0x154, symBinAddr: 0x9830, symSize: 0x44 }
-  - { offsetInCU: 0x247, offset: 0x5987D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40r, symObjAddr: 0x198, symBinAddr: 0x9874, symSize: 0x34 }
-  - { offsetInCU: 0x270, offset: 0x598A6, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary objectForKey:]', symObjAddr: 0x1F8, symBinAddr: 0x98A8, symSize: 0xDC }
-  - { offsetInCU: 0x2DA, offset: 0x59910, size: 0x8, addend: 0x0, symName: '___42-[MoEngageMutableDictionary objectForKey:]_block_invoke', symObjAddr: 0x2D4, symBinAddr: 0x9984, symSize: 0x44 }
-  - { offsetInCU: 0x339, offset: 0x5996F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48r, symObjAddr: 0x318, symBinAddr: 0x99C8, symSize: 0x3C }
-  - { offsetInCU: 0x362, offset: 0x59998, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48r, symObjAddr: 0x354, symBinAddr: 0x9A04, symSize: 0x34 }
-  - { offsetInCU: 0x381, offset: 0x599B7, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary setObject:forKey:]', symObjAddr: 0x388, symBinAddr: 0x9A38, symSize: 0xBC }
-  - { offsetInCU: 0x3F5, offset: 0x59A2B, size: 0x8, addend: 0x0, symName: '___46-[MoEngageMutableDictionary setObject:forKey:]_block_invoke', symObjAddr: 0x444, symBinAddr: 0x9AF4, symSize: 0x14 }
-  - { offsetInCU: 0x454, offset: 0x59A8A, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x458, symBinAddr: 0x9B08, symSize: 0x30 }
-  - { offsetInCU: 0x47D, offset: 0x59AB3, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary removeObjectForKey:]', symObjAddr: 0x4B8, symBinAddr: 0x9B38, symSize: 0x84 }
-  - { offsetInCU: 0x4CE, offset: 0x59B04, size: 0x8, addend: 0x0, symName: '___48-[MoEngageMutableDictionary removeObjectForKey:]_block_invoke', symObjAddr: 0x53C, symBinAddr: 0x9BBC, symSize: 0xC }
-  - { offsetInCU: 0x51D, offset: 0x59B53, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary removeAllObjects]', symObjAddr: 0x598, symBinAddr: 0x9BC8, symSize: 0x58 }
-  - { offsetInCU: 0x55E, offset: 0x59B94, size: 0x8, addend: 0x0, symName: '___45-[MoEngageMutableDictionary removeAllObjects]_block_invoke', symObjAddr: 0x5F0, symBinAddr: 0x9C20, symSize: 0xC }
-  - { offsetInCU: 0x59D, offset: 0x59BD3, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x5FC, symBinAddr: 0x9C2C, symSize: 0x8 }
-  - { offsetInCU: 0x5C4, offset: 0x59BFA, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary count]', symObjAddr: 0x60C, symBinAddr: 0x9C34, symSize: 0x8C }
-  - { offsetInCU: 0x61D, offset: 0x59C53, size: 0x8, addend: 0x0, symName: '___34-[MoEngageMutableDictionary count]_block_invoke', symObjAddr: 0x698, symBinAddr: 0x9CC0, symSize: 0x34 }
-  - { offsetInCU: 0x66C, offset: 0x59CA2, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary objectForKeyedSubscript:]', symObjAddr: 0x6CC, symBinAddr: 0x9CF4, symSize: 0xDC }
-  - { offsetInCU: 0x6D6, offset: 0x59D0C, size: 0x8, addend: 0x0, symName: '___53-[MoEngageMutableDictionary objectForKeyedSubscript:]_block_invoke', symObjAddr: 0x7A8, symBinAddr: 0x9DD0, symSize: 0x44 }
-  - { offsetInCU: 0x735, offset: 0x59D6B, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary setObject:forKeyedSubscript:]', symObjAddr: 0x7EC, symBinAddr: 0x9E14, symSize: 0xC4 }
-  - { offsetInCU: 0x796, offset: 0x59DCC, size: 0x8, addend: 0x0, symName: '___57-[MoEngageMutableDictionary setObject:forKeyedSubscript:]_block_invoke', symObjAddr: 0x8B0, symBinAddr: 0x9ED8, symSize: 0x10 }
-  - { offsetInCU: 0x7F5, offset: 0x59E2B, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary dictionary]', symObjAddr: 0x8C0, symBinAddr: 0x9EE8, symSize: 0xB4 }
-  - { offsetInCU: 0x84E, offset: 0x59E84, size: 0x8, addend: 0x0, symName: '___39-[MoEngageMutableDictionary dictionary]_block_invoke', symObjAddr: 0x974, symBinAddr: 0x9F9C, symSize: 0x3C }
-  - { offsetInCU: 0x89D, offset: 0x59ED3, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary .cxx_destruct]', symObjAddr: 0x9B0, symBinAddr: 0x9FD8, symSize: 0x30 }
+  - { offsetInCU: 0x34, offset: 0x554D0, size: 0x8, addend: 0x0, symName: _MoEngageObjCUtilsVersionString, symObjAddr: 0x0, symBinAddr: 0xB9C8, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x55505, size: 0x8, addend: 0x0, symName: _MoEngageObjCUtilsVersionNumber, symObjAddr: 0x30, symBinAddr: 0xB9F8, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x55542, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateProxy canSwizzleMethods]', symObjAddr: 0x0, symBinAddr: 0x277C, symSize: 0xC }
+  - { offsetInCU: 0x3A, offset: 0x55555, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateProxy sharedProxy]', symObjAddr: 0xC, symBinAddr: 0x2788, symSize: 0x40 }
+  - { offsetInCU: 0x64, offset: 0x5557F, size: 0x8, addend: 0x0, symName: _sharedProxy.proxy, symObjAddr: 0x10AF0, symBinAddr: 0x15F28, symSize: 0x0 }
+  - { offsetInCU: 0x7A, offset: 0x55595, size: 0x8, addend: 0x0, symName: _sharedProxy.onceToken, symObjAddr: 0x10AF8, symBinAddr: 0x15F30, symSize: 0x0 }
+  - { offsetInCU: 0x22A, offset: 0x55745, size: 0x8, addend: 0x0, symName: _UserNotificationObserverContext, symObjAddr: 0x43B0, symBinAddr: 0x15C18, symSize: 0x0 }
+  - { offsetInCU: 0x361, offset: 0x5587C, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateProxy canSwizzleMethods]', symObjAddr: 0x0, symBinAddr: 0x277C, symSize: 0xC }
+  - { offsetInCU: 0x3CE, offset: 0x558E9, size: 0x8, addend: 0x0, symName: '___39+[MoEngageAppDelegateProxy sharedProxy]_block_invoke', symObjAddr: 0x4C, symBinAddr: 0x27C8, symSize: 0x30 }
+  - { offsetInCU: 0x3F5, offset: 0x55910, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy init]', symObjAddr: 0x7C, symBinAddr: 0x27F8, symSize: 0xE0 }
+  - { offsetInCU: 0x42C, offset: 0x55947, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy dealloc]', symObjAddr: 0x15C, symBinAddr: 0x28D8, symSize: 0xC4 }
+  - { offsetInCU: 0x45F, offset: 0x5597A, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy swizzleMethodsIfPossible]', symObjAddr: 0x220, symBinAddr: 0x299C, symSize: 0xD8 }
+  - { offsetInCU: 0x4F9, offset: 0x55A14, size: 0x8, addend: 0x0, symName: _getNamedPropertyFromObject, symObjAddr: 0x2F8, symBinAddr: 0x2A74, symSize: 0xF4 }
+  - { offsetInCU: 0x58B, offset: 0x55AA6, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy unswizzleAllMethods]', symObjAddr: 0x3EC, symBinAddr: 0x2B68, symSize: 0x2AC }
+  - { offsetInCU: 0x656, offset: 0x55B71, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy listenForDelegateChangesInUserNotificationCenter:]', symObjAddr: 0x698, symBinAddr: 0x2E14, symSize: 0xF8 }
+  - { offsetInCU: 0x71F, offset: 0x55C3A, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy swizzleUserNotificationCenterDelegate:]', symObjAddr: 0x790, symBinAddr: 0x2F0C, symSize: 0x154 }
+  - { offsetInCU: 0x7CB, offset: 0x55CE6, size: 0x8, addend: 0x0, symName: _moe_swizzle_willPresentNotificationWithHandler, symObjAddr: 0x8E4, symBinAddr: 0x3060, symSize: 0x280 }
+  - { offsetInCU: 0x87F, offset: 0x55D9A, size: 0x8, addend: 0x0, symName: _moe_swizzle_didReceiveNotificationResponseWithHandler, symObjAddr: 0xB64, symBinAddr: 0x32E0, symSize: 0x300 }
+  - { offsetInCU: 0x971, offset: 0x55E8C, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy unswizzleUserNotificationCenterDelegate:]', symObjAddr: 0xE64, symBinAddr: 0x35E0, symSize: 0x11C }
+  - { offsetInCU: 0x9F0, offset: 0x55F0B, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy addDelegateObserverToUserNotificationCenter:]', symObjAddr: 0xF80, symBinAddr: 0x36FC, symSize: 0x254 }
+  - { offsetInCU: 0xA89, offset: 0x55FA4, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy removeUserNotificationCenterDelegateObserver]', symObjAddr: 0x11D4, symBinAddr: 0x3950, symSize: 0x284 }
+  - { offsetInCU: 0xAFF, offset: 0x5601A, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy observeValueForKeyPath:ofObject:change:context:]', symObjAddr: 0x1458, symBinAddr: 0x3BD4, symSize: 0x1FC }
+  - { offsetInCU: 0xBAF, offset: 0x560CA, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy saveOriginalImplementation:forSelector:]', symObjAddr: 0x1654, symBinAddr: 0x3DD0, symSize: 0xD8 }
+  - { offsetInCU: 0xC3F, offset: 0x5615A, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy originalImplementationForSelector:]', symObjAddr: 0x172C, symBinAddr: 0x3EA8, symSize: 0xD4 }
+  - { offsetInCU: 0xCCD, offset: 0x561E8, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy trackSwizzledSelector:ofClass:]', symObjAddr: 0x1800, symBinAddr: 0x3F7C, symSize: 0x19C }
+  - { offsetInCU: 0xD96, offset: 0x562B1, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy removeImplementationForSelector:]', symObjAddr: 0x199C, symBinAddr: 0x4118, symSize: 0x84 }
+  - { offsetInCU: 0xE03, offset: 0x5631E, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy swizzleSelector:inClass:withImplementation:inProtocol:]', symObjAddr: 0x1A20, symBinAddr: 0x419C, symSize: 0x264 }
+  - { offsetInCU: 0x102A, offset: 0x56545, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy unswizzleSelector:inClass:]', symObjAddr: 0x1C84, symBinAddr: 0x4400, symSize: 0x98 }
+  - { offsetInCU: 0x110D, offset: 0x56628, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy nonExistantMethodImplementationForClass:]', symObjAddr: 0x1D1C, symBinAddr: 0x4498, symSize: 0x30 }
+  - { offsetInCU: 0x11AC, offset: 0x566C7, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy application:openURL:sourceApplication:annotation:]', symObjAddr: 0x1D4C, symBinAddr: 0x44C8, symSize: 0x110 }
+  - { offsetInCU: 0x1228, offset: 0x56743, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy application:openURL:options:]', symObjAddr: 0x1E5C, symBinAddr: 0x45D8, symSize: 0xF0 }
+  - { offsetInCU: 0x1293, offset: 0x567AE, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy application:continueUserActivity:restorationHandler:]', symObjAddr: 0x1F4C, symBinAddr: 0x46C8, symSize: 0x10C }
+  - { offsetInCU: 0x130E, offset: 0x56829, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy application:didReceiveRemoteNotification:]', symObjAddr: 0x2058, symBinAddr: 0x47D4, symSize: 0x98 }
+  - { offsetInCU: 0x1360, offset: 0x5687B, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy application:didReceiveRemoteNotification:fetchCompletionHandler:]', symObjAddr: 0x20F0, symBinAddr: 0x486C, symSize: 0x98 }
+  - { offsetInCU: 0x13BF, offset: 0x568DA, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy application:didFailToRegisterForRemoteNotificationsWithError:]', symObjAddr: 0x2188, symBinAddr: 0x4904, symSize: 0x98 }
+  - { offsetInCU: 0x1411, offset: 0x5692C, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy application:didRegisterForRemoteNotificationsWithDeviceToken:]', symObjAddr: 0x2220, symBinAddr: 0x499C, symSize: 0x98 }
+  - { offsetInCU: 0x1463, offset: 0x5697E, size: 0x8, addend: 0x0, symName: ___moe_swizzle_willPresentNotificationWithHandler_block_invoke, symObjAddr: 0x22B8, symBinAddr: 0x4A34, symSize: 0x20 }
+  - { offsetInCU: 0x1502, offset: 0x56A1D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48s56b, symObjAddr: 0x22D8, symBinAddr: 0x4A54, symSize: 0x44 }
+  - { offsetInCU: 0x152B, offset: 0x56A46, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48s56s, symObjAddr: 0x231C, symBinAddr: 0x4A98, symSize: 0x38 }
+  - { offsetInCU: 0x154A, offset: 0x56A65, size: 0x8, addend: 0x0, symName: ___moe_swizzle_didReceiveNotificationResponseWithHandler_block_invoke, symObjAddr: 0x2354, symBinAddr: 0x4AD0, symSize: 0x20 }
+  - { offsetInCU: 0x15E9, offset: 0x56B04, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy messagingProxyDelegate]', symObjAddr: 0x2374, symBinAddr: 0x4AF0, symSize: 0x18 }
+  - { offsetInCU: 0x1620, offset: 0x56B3B, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy setMessagingProxyDelegate:]', symObjAddr: 0x238C, symBinAddr: 0x4B08, symSize: 0xC }
+  - { offsetInCU: 0x1661, offset: 0x56B7C, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy analyticsProxyDelegate]', symObjAddr: 0x2398, symBinAddr: 0x4B14, symSize: 0x18 }
+  - { offsetInCU: 0x1698, offset: 0x56BB3, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy setAnalyticsProxyDelegate:]', symObjAddr: 0x23B0, symBinAddr: 0x4B2C, symSize: 0xC }
+  - { offsetInCU: 0x16D9, offset: 0x56BF4, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy originalAppDelegateImps]', symObjAddr: 0x23BC, symBinAddr: 0x4B38, symSize: 0x8 }
+  - { offsetInCU: 0x1710, offset: 0x56C2B, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy setOriginalAppDelegateImps:]', symObjAddr: 0x23C4, symBinAddr: 0x4B40, symSize: 0xC }
+  - { offsetInCU: 0x1751, offset: 0x56C6C, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy swizzledSelectorsByClass]', symObjAddr: 0x23D0, symBinAddr: 0x4B4C, symSize: 0x8 }
+  - { offsetInCU: 0x1788, offset: 0x56CA3, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy setSwizzledSelectorsByClass:]', symObjAddr: 0x23D8, symBinAddr: 0x4B54, symSize: 0xC }
+  - { offsetInCU: 0x17C9, offset: 0x56CE4, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy didSwizzleMethods]', symObjAddr: 0x23E4, symBinAddr: 0x4B60, symSize: 0x8 }
+  - { offsetInCU: 0x1800, offset: 0x56D1B, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy setDidSwizzleMethods:]', symObjAddr: 0x23EC, symBinAddr: 0x4B68, symSize: 0x8 }
+  - { offsetInCU: 0x183B, offset: 0x56D56, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy hasSwizzledUserNotificationDelegate]', symObjAddr: 0x23F4, symBinAddr: 0x4B70, symSize: 0x8 }
+  - { offsetInCU: 0x1872, offset: 0x56D8D, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy setHasSwizzledUserNotificationDelegate:]', symObjAddr: 0x23FC, symBinAddr: 0x4B78, symSize: 0x8 }
+  - { offsetInCU: 0x18AD, offset: 0x56DC8, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy isObservingUserNotificationDelegateChanges]', symObjAddr: 0x2404, symBinAddr: 0x4B80, symSize: 0x8 }
+  - { offsetInCU: 0x18E4, offset: 0x56DFF, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy setIsObservingUserNotificationDelegateChanges:]', symObjAddr: 0x240C, symBinAddr: 0x4B88, symSize: 0x8 }
+  - { offsetInCU: 0x191F, offset: 0x56E3A, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy userNotificationCenter]', symObjAddr: 0x2414, symBinAddr: 0x4B90, symSize: 0x8 }
+  - { offsetInCU: 0x1956, offset: 0x56E71, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy setUserNotificationCenter:]', symObjAddr: 0x241C, symBinAddr: 0x4B98, symSize: 0xC }
+  - { offsetInCU: 0x1997, offset: 0x56EB2, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy currentUserNotificationCenterDelegate]', symObjAddr: 0x2428, symBinAddr: 0x4BA4, symSize: 0x8 }
+  - { offsetInCU: 0x19CE, offset: 0x56EE9, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy setCurrentUserNotificationCenterDelegate:]', symObjAddr: 0x2430, symBinAddr: 0x4BAC, symSize: 0xC }
+  - { offsetInCU: 0x1A0F, offset: 0x56F2A, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy appDelegateInterceptorID]', symObjAddr: 0x243C, symBinAddr: 0x4BB8, symSize: 0x8 }
+  - { offsetInCU: 0x1A46, offset: 0x56F61, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy setAppDelegateInterceptorID:]', symObjAddr: 0x2444, symBinAddr: 0x4BC0, symSize: 0xC }
+  - { offsetInCU: 0x1A87, offset: 0x56FA2, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateProxy .cxx_destruct]', symObjAddr: 0x2450, symBinAddr: 0x4BCC, symSize: 0x64 }
+  - { offsetInCU: 0x27, offset: 0x572EF, size: 0x8, addend: 0x0, symName: '-[MOZeroingWeakContainer object]', symObjAddr: 0x0, symBinAddr: 0x4C30, symSize: 0x18 }
+  - { offsetInCU: 0x3A, offset: 0x57302, size: 0x8, addend: 0x0, symName: '+[MOAppDelegateObserver sharedInstance]', symObjAddr: 0x2C, symBinAddr: 0x4C5C, symSize: 0x40 }
+  - { offsetInCU: 0x64, offset: 0x5732C, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x16D30, symBinAddr: 0x15F38, symSize: 0x0 }
+  - { offsetInCU: 0x7A, offset: 0x57342, size: 0x8, addend: 0x0, symName: _sharedInstance.once, symObjAddr: 0x16D38, symBinAddr: 0x15F40, symSize: 0x0 }
+  - { offsetInCU: 0xF4, offset: 0x573BC, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler interceptors]', symObjAddr: 0x155C, symBinAddr: 0x618C, symSize: 0x40 }
+  - { offsetInCU: 0x120, offset: 0x573E8, size: 0x8, addend: 0x0, symName: _interceptors.onceToken, symObjAddr: 0x16D68, symBinAddr: 0x15F70, symSize: 0x0 }
+  - { offsetInCU: 0x137, offset: 0x573FF, size: 0x8, addend: 0x0, symName: _interceptors.sInterceptors, symObjAddr: 0x16D70, symBinAddr: 0x15F78, symSize: 0x0 }
+  - { offsetInCU: 0x193, offset: 0x5745B, size: 0x8, addend: 0x0, symName: _MOEOriginalAppDelegate, symObjAddr: 0x16D40, symBinAddr: 0x15F48, symSize: 0x0 }
+  - { offsetInCU: 0x1D2, offset: 0x5749A, size: 0x8, addend: 0x0, symName: _MOEOriginalAppDelegateClass, symObjAddr: 0x16D60, symBinAddr: 0x15F68, symSize: 0x0 }
+  - { offsetInCU: 0x1F1, offset: 0x574B9, size: 0x8, addend: 0x0, symName: _MOEAppDelegateSubclass, symObjAddr: 0x16D58, symBinAddr: 0x15F60, symSize: 0x0 }
+  - { offsetInCU: 0x207, offset: 0x574CF, size: 0x8, addend: 0x0, symName: _sProxyAppDelegateOnceToken, symObjAddr: 0x16D48, symBinAddr: 0x15F50, symSize: 0x0 }
+  - { offsetInCU: 0x21D, offset: 0x574E5, size: 0x8, addend: 0x0, symName: _sProxyAppDelegateRemoteNotificationOnceToken, symObjAddr: 0x16D50, symBinAddr: 0x15F58, symSize: 0x0 }
+  - { offsetInCU: 0x233, offset: 0x574FB, size: 0x8, addend: 0x0, symName: _kMOERealIMPBySelectorKey, symObjAddr: 0x7920, symBinAddr: 0x10110, symSize: 0x0 }
+  - { offsetInCU: 0x258, offset: 0x57520, size: 0x8, addend: 0x0, symName: _kMOERealClassKey, symObjAddr: 0x7948, symBinAddr: 0x10138, symSize: 0x0 }
+  - { offsetInCU: 0x2C9, offset: 0x57591, size: 0x8, addend: 0x0, symName: '-[MOZeroingWeakContainer object]', symObjAddr: 0x0, symBinAddr: 0x4C30, symSize: 0x18 }
+  - { offsetInCU: 0x300, offset: 0x575C8, size: 0x8, addend: 0x0, symName: '-[MOZeroingWeakContainer setObject:]', symObjAddr: 0x18, symBinAddr: 0x4C48, symSize: 0xC }
+  - { offsetInCU: 0x341, offset: 0x57609, size: 0x8, addend: 0x0, symName: '-[MOZeroingWeakContainer .cxx_destruct]', symObjAddr: 0x24, symBinAddr: 0x4C54, symSize: 0x8 }
+  - { offsetInCU: 0x3BB, offset: 0x57683, size: 0x8, addend: 0x0, symName: '___39+[MOAppDelegateObserver sharedInstance]_block_invoke', symObjAddr: 0x6C, symBinAddr: 0x4C9C, symSize: 0x30 }
+  - { offsetInCU: 0x3E2, offset: 0x576AA, size: 0x8, addend: 0x0, symName: '-[MOAppDelegateObserver observeUIApplication]', symObjAddr: 0x9C, symBinAddr: 0x4CCC, symSize: 0x78 }
+  - { offsetInCU: 0x415, offset: 0x576DD, size: 0x8, addend: 0x0, symName: '-[MOAppDelegateObserver observeValueForKeyPath:ofObject:change:context:]', symObjAddr: 0x114, symBinAddr: 0x4D44, symSize: 0x150 }
+  - { offsetInCU: 0x4A7, offset: 0x5776F, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler isAppDelegateProxyEnabled]', symObjAddr: 0x264, symBinAddr: 0x4E94, symSize: 0xC }
+  - { offsetInCU: 0x4DA, offset: 0x577A2, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler registerAppDelegateInterceptor:]', symObjAddr: 0x270, symBinAddr: 0x4EA0, symSize: 0x374 }
+  - { offsetInCU: 0x5A9, offset: 0x57871, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler unregisterAppDelegateInterceptorWithID:]', symObjAddr: 0x5E4, symBinAddr: 0x5214, symSize: 0x294 }
+  - { offsetInCU: 0x628, offset: 0x578F0, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler proxyOriginalDelegate]', symObjAddr: 0x878, symBinAddr: 0x54A8, symSize: 0x48 }
+  - { offsetInCU: 0x672, offset: 0x5793A, size: 0x8, addend: 0x0, symName: '___52+[MoEngageAppDelegateSwizzler proxyOriginalDelegate]_block_invoke', symObjAddr: 0x8C0, symBinAddr: 0x54F0, symSize: 0x80 }
+  - { offsetInCU: 0x6B8, offset: 0x57980, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler proxyOriginalDelegateIncludingAPNSMethods]', symObjAddr: 0x940, symBinAddr: 0x5570, symSize: 0x90 }
+  - { offsetInCU: 0x719, offset: 0x579E1, size: 0x8, addend: 0x0, symName: '___72+[MoEngageAppDelegateSwizzler proxyOriginalDelegateIncludingAPNSMethods]_block_invoke', symObjAddr: 0x9D0, symBinAddr: 0x5600, symSize: 0x12C }
+  - { offsetInCU: 0x7F6, offset: 0x57ABE, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler sharedApplication]', symObjAddr: 0xAFC, symBinAddr: 0x572C, symSize: 0x70 }
+  - { offsetInCU: 0x88B, offset: 0x57B53, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler createSubclassWithObject:]', symObjAddr: 0xB6C, symBinAddr: 0x579C, symSize: 0x73C }
+  - { offsetInCU: 0xB59, offset: 0x57E21, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler proxyRemoteNotificationsMethodsWithAppDelegateSubClass:realClass:appDelegate:realImplementationsBySelector:]', symObjAddr: 0x12A8, symBinAddr: 0x5ED8, symSize: 0x1B0 }
+  - { offsetInCU: 0xC91, offset: 0x57F59, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler reassignAppDelegate]', symObjAddr: 0x1458, symBinAddr: 0x6088, symSize: 0x104 }
+  - { offsetInCU: 0xCD6, offset: 0x57F9E, size: 0x8, addend: 0x0, symName: '___43+[MoEngageAppDelegateSwizzler interceptors]_block_invoke', symObjAddr: 0x159C, symBinAddr: 0x61CC, symSize: 0x30 }
+  - { offsetInCU: 0xCFF, offset: 0x57FC7, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler originalImplementationForSelector:object:]', symObjAddr: 0x15CC, symBinAddr: 0x61FC, symSize: 0xA4 }
+  - { offsetInCU: 0xD93, offset: 0x5805B, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler proxyDestinationSelector:implementationsFromSourceSelector:fromClass:toClass:realClass:storeDestinationImplementationTo:]', symObjAddr: 0x1670, symBinAddr: 0x62A0, symSize: 0x114 }
+  - { offsetInCU: 0xE76, offset: 0x5813E, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler addInstanceMethodWithSelector:fromClass:toClass:]', symObjAddr: 0x1784, symBinAddr: 0x63B4, symSize: 0x10 }
+  - { offsetInCU: 0xED9, offset: 0x581A1, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler addInstanceMethodWithDestinationSelector:withImplementationFromSourceSelector:fromClass:toClass:]', symObjAddr: 0x1794, symBinAddr: 0x63C4, symSize: 0x1B0 }
+  - { offsetInCU: 0x1077, offset: 0x5833F, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler implementationOfMethodSelector:fromClass:]', symObjAddr: 0x1944, symBinAddr: 0x6574, symSize: 0x1C }
+  - { offsetInCU: 0x110B, offset: 0x583D3, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler notifyInterceptorsWithMethodSelector:callback:]', symObjAddr: 0x1960, symBinAddr: 0x6590, symSize: 0x22C }
+  - { offsetInCU: 0x11AF, offset: 0x58477, size: 0x8, addend: 0x0, symName: '___77+[MoEngageAppDelegateSwizzler notifyInterceptorsWithMethodSelector:callback:]_block_invoke', symObjAddr: 0x1B8C, symBinAddr: 0x67BC, symSize: 0x1D8 }
+  - { offsetInCU: 0x1289, offset: 0x58551, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32b, symObjAddr: 0x1D64, symBinAddr: 0x6994, symSize: 0x10 }
+  - { offsetInCU: 0x12B2, offset: 0x5857A, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s, symObjAddr: 0x1D74, symBinAddr: 0x69A4, symSize: 0x8 }
+  - { offsetInCU: 0x12D1, offset: 0x58599, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateSwizzler fakeDescription]', symObjAddr: 0x1D7C, symBinAddr: 0x69AC, symSize: 0x54 }
+  - { offsetInCU: 0x1331, offset: 0x585F9, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateSwizzler application:openURL:options:]', symObjAddr: 0x1DD0, symBinAddr: 0x6A00, symSize: 0x21C }
+  - { offsetInCU: 0x1415, offset: 0x586DD, size: 0x8, addend: 0x0, symName: '___59-[MoEngageAppDelegateSwizzler application:openURL:options:]_block_invoke', symObjAddr: 0x1FEC, symBinAddr: 0x6C1C, symSize: 0x60 }
+  - { offsetInCU: 0x1497, offset: 0x5875F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48s56r, symObjAddr: 0x204C, symBinAddr: 0x6C7C, symSize: 0x44 }
+  - { offsetInCU: 0x14C0, offset: 0x58788, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48s56r, symObjAddr: 0x2090, symBinAddr: 0x6CC0, symSize: 0x3C }
+  - { offsetInCU: 0x14DF, offset: 0x587A7, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateSwizzler application:openURL:sourceApplication:annotation:]', symObjAddr: 0x20CC, symBinAddr: 0x6CFC, symSize: 0x264 }
+  - { offsetInCU: 0x15DB, offset: 0x588A3, size: 0x8, addend: 0x0, symName: '___80-[MoEngageAppDelegateSwizzler application:openURL:sourceApplication:annotation:]_block_invoke', symObjAddr: 0x2330, symBinAddr: 0x6F60, symSize: 0x60 }
+  - { offsetInCU: 0x166E, offset: 0x58936, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48s56s64r, symObjAddr: 0x2390, symBinAddr: 0x6FC0, symSize: 0x4C }
+  - { offsetInCU: 0x1697, offset: 0x5895F, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48s56s64r, symObjAddr: 0x23DC, symBinAddr: 0x700C, symSize: 0x44 }
+  - { offsetInCU: 0x16B6, offset: 0x5897E, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateSwizzler application:handleEventsForBackgroundURLSession:completionHandler:]', symObjAddr: 0x2420, symBinAddr: 0x7050, symSize: 0x1C0 }
+  - { offsetInCU: 0x1780, offset: 0x58A48, size: 0x8, addend: 0x0, symName: '___97-[MoEngageAppDelegateSwizzler application:handleEventsForBackgroundURLSession:completionHandler:]_block_invoke', symObjAddr: 0x25E0, symBinAddr: 0x7210, symSize: 0x10 }
+  - { offsetInCU: 0x17F1, offset: 0x58AB9, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48b, symObjAddr: 0x25F0, symBinAddr: 0x7220, symSize: 0x3C }
+  - { offsetInCU: 0x181A, offset: 0x58AE2, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48s, symObjAddr: 0x262C, symBinAddr: 0x725C, symSize: 0x30 }
+  - { offsetInCU: 0x1839, offset: 0x58B01, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateSwizzler application:continueUserActivity:restorationHandler:]', symObjAddr: 0x265C, symBinAddr: 0x728C, symSize: 0x21C }
+  - { offsetInCU: 0x191D, offset: 0x58BE5, size: 0x8, addend: 0x0, symName: '___83-[MoEngageAppDelegateSwizzler application:continueUserActivity:restorationHandler:]_block_invoke', symObjAddr: 0x2878, symBinAddr: 0x74A8, symSize: 0x60 }
+  - { offsetInCU: 0x199F, offset: 0x58C67, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48b56r, symObjAddr: 0x28D8, symBinAddr: 0x7508, symSize: 0x4C }
+  - { offsetInCU: 0x19C8, offset: 0x58C90, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateSwizzler application:donor_didRegisterForRemoteNotificationsWithDeviceToken:]', symObjAddr: 0x2924, symBinAddr: 0x7554, symSize: 0x188 }
+  - { offsetInCU: 0x1A88, offset: 0x58D50, size: 0x8, addend: 0x0, symName: '___98-[MoEngageAppDelegateSwizzler application:donor_didRegisterForRemoteNotificationsWithDeviceToken:]_block_invoke', symObjAddr: 0x2AAC, symBinAddr: 0x76DC, symSize: 0xB8 }
+  - { offsetInCU: 0x1B19, offset: 0x58DE1, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s, symObjAddr: 0x2B64, symBinAddr: 0x7794, symSize: 0x28 }
+  - { offsetInCU: 0x1B42, offset: 0x58E0A, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s, symObjAddr: 0x2B8C, symBinAddr: 0x77BC, symSize: 0x28 }
+  - { offsetInCU: 0x1B61, offset: 0x58E29, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateSwizzler application:donor_didFailToRegisterForRemoteNotificationsWithError:]', symObjAddr: 0x2BB4, symBinAddr: 0x77E4, symSize: 0x188 }
+  - { offsetInCU: 0x1C21, offset: 0x58EE9, size: 0x8, addend: 0x0, symName: '___98-[MoEngageAppDelegateSwizzler application:donor_didFailToRegisterForRemoteNotificationsWithError:]_block_invoke', symObjAddr: 0x2D3C, symBinAddr: 0x796C, symSize: 0xB8 }
+  - { offsetInCU: 0x1CB2, offset: 0x58F7A, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateSwizzler application:donor_didReceiveRemoteNotification:fetchCompletionHandler:]', symObjAddr: 0x2DF4, symBinAddr: 0x7A24, symSize: 0x320 }
+  - { offsetInCU: 0x1E33, offset: 0x590FB, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x3114, symBinAddr: 0x7D44, symSize: 0x10 }
+  - { offsetInCU: 0x1E58, offset: 0x59120, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x3124, symBinAddr: 0x7D54, symSize: 0x8 }
+  - { offsetInCU: 0x1E77, offset: 0x5913F, size: 0x8, addend: 0x0, symName: '___101-[MoEngageAppDelegateSwizzler application:donor_didReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke', symObjAddr: 0x312C, symBinAddr: 0x7D5C, symSize: 0x80 }
+  - { offsetInCU: 0x1EF4, offset: 0x591BC, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32r40r, symObjAddr: 0x31AC, symBinAddr: 0x7DDC, symSize: 0x3C }
+  - { offsetInCU: 0x1F1D, offset: 0x591E5, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32r40r, symObjAddr: 0x31E8, symBinAddr: 0x7E18, symSize: 0x30 }
+  - { offsetInCU: 0x1F3C, offset: 0x59204, size: 0x8, addend: 0x0, symName: '___101-[MoEngageAppDelegateSwizzler application:donor_didReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke.246', symObjAddr: 0x3218, symBinAddr: 0x7E48, symSize: 0xD8 }
+  - { offsetInCU: 0x1FFD, offset: 0x592C5, size: 0x8, addend: 0x0, symName: '___101-[MoEngageAppDelegateSwizzler application:donor_didReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke.247', symObjAddr: 0x32F0, symBinAddr: 0x7F20, symSize: 0x170 }
+  - { offsetInCU: 0x20CA, offset: 0x59392, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32b40r, symObjAddr: 0x3460, symBinAddr: 0x8090, symSize: 0x3C }
+  - { offsetInCU: 0x20F3, offset: 0x593BB, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40r, symObjAddr: 0x349C, symBinAddr: 0x80CC, symSize: 0x2C }
+  - { offsetInCU: 0x2112, offset: 0x593DA, size: 0x8, addend: 0x0, symName: '-[MoEngageAppDelegateSwizzler application:donor_didReceiveRemoteNotification:]', symObjAddr: 0x34C8, symBinAddr: 0x80F8, symSize: 0x188 }
+  - { offsetInCU: 0x21D2, offset: 0x5949A, size: 0x8, addend: 0x0, symName: '___78-[MoEngageAppDelegateSwizzler application:donor_didReceiveRemoteNotification:]_block_invoke', symObjAddr: 0x3650, symBinAddr: 0x8280, symSize: 0xB8 }
+  - { offsetInCU: 0x2263, offset: 0x5952B, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler appDelegateInvocationForSelector:]', symObjAddr: 0x3708, symBinAddr: 0x8338, symSize: 0x94 }
+  - { offsetInCU: 0x231A, offset: 0x595E2, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler proxyAppDelegate:]', symObjAddr: 0x379C, symBinAddr: 0x83CC, symSize: 0x434 }
+  - { offsetInCU: 0x23E8, offset: 0x596B0, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler clearInterceptors]', symObjAddr: 0x3BD0, symBinAddr: 0x8800, symSize: 0x44 }
+  - { offsetInCU: 0x241C, offset: 0x596E4, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler resetProxyOriginalDelegateOnceToken]', symObjAddr: 0x3C14, symBinAddr: 0x8844, symSize: 0x14 }
+  - { offsetInCU: 0x244C, offset: 0x59714, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler originalDelegate]', symObjAddr: 0x3C28, symBinAddr: 0x8858, symSize: 0xC }
+  - { offsetInCU: 0x27, offset: 0x5A32C, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary init]', symObjAddr: 0x0, symBinAddr: 0x8864, symSize: 0xA8 }
+  - { offsetInCU: 0xFA, offset: 0x5A3FF, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary init]', symObjAddr: 0x0, symBinAddr: 0x8864, symSize: 0xA8 }
+  - { offsetInCU: 0x168, offset: 0x5A46D, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary description]', symObjAddr: 0xA8, symBinAddr: 0x890C, symSize: 0xB4 }
+  - { offsetInCU: 0x1F2, offset: 0x5A4F7, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x15C, symBinAddr: 0x89C0, symSize: 0x10 }
+  - { offsetInCU: 0x217, offset: 0x5A51C, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x16C, symBinAddr: 0x89D0, symSize: 0x8 }
+  - { offsetInCU: 0x236, offset: 0x5A53B, size: 0x8, addend: 0x0, symName: '___40-[MoEngageMutableDictionary description]_block_invoke', symObjAddr: 0x174, symBinAddr: 0x89D8, symSize: 0x44 }
+  - { offsetInCU: 0x285, offset: 0x5A58A, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40r, symObjAddr: 0x1B8, symBinAddr: 0x8A1C, symSize: 0x34 }
+  - { offsetInCU: 0x2AE, offset: 0x5A5B3, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary objectForKey:]', symObjAddr: 0x218, symBinAddr: 0x8A50, symSize: 0xDC }
+  - { offsetInCU: 0x327, offset: 0x5A62C, size: 0x8, addend: 0x0, symName: '___42-[MoEngageMutableDictionary objectForKey:]_block_invoke', symObjAddr: 0x2F4, symBinAddr: 0x8B2C, symSize: 0x44 }
+  - { offsetInCU: 0x386, offset: 0x5A68B, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48r, symObjAddr: 0x338, symBinAddr: 0x8B70, symSize: 0x3C }
+  - { offsetInCU: 0x3AF, offset: 0x5A6B4, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48r, symObjAddr: 0x374, symBinAddr: 0x8BAC, symSize: 0x34 }
+  - { offsetInCU: 0x3CE, offset: 0x5A6D3, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary setObject:forKey:]', symObjAddr: 0x3A8, symBinAddr: 0x8BE0, symSize: 0xBC }
+  - { offsetInCU: 0x451, offset: 0x5A756, size: 0x8, addend: 0x0, symName: '___46-[MoEngageMutableDictionary setObject:forKey:]_block_invoke', symObjAddr: 0x464, symBinAddr: 0x8C9C, symSize: 0x14 }
+  - { offsetInCU: 0x4B0, offset: 0x5A7B5, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48s, symObjAddr: 0x478, symBinAddr: 0x8CB0, symSize: 0x30 }
+  - { offsetInCU: 0x4D9, offset: 0x5A7DE, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary removeObjectForKey:]', symObjAddr: 0x4D8, symBinAddr: 0x8CE0, symSize: 0x84 }
+  - { offsetInCU: 0x539, offset: 0x5A83E, size: 0x8, addend: 0x0, symName: '___48-[MoEngageMutableDictionary removeObjectForKey:]_block_invoke', symObjAddr: 0x55C, symBinAddr: 0x8D64, symSize: 0xC }
+  - { offsetInCU: 0x588, offset: 0x5A88D, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary removeAllObjects]', symObjAddr: 0x5B8, symBinAddr: 0x8D70, symSize: 0x58 }
+  - { offsetInCU: 0x5D1, offset: 0x5A8D6, size: 0x8, addend: 0x0, symName: '___45-[MoEngageMutableDictionary removeAllObjects]_block_invoke', symObjAddr: 0x610, symBinAddr: 0x8DC8, symSize: 0xC }
+  - { offsetInCU: 0x610, offset: 0x5A915, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s, symObjAddr: 0x61C, symBinAddr: 0x8DD4, symSize: 0x8 }
+  - { offsetInCU: 0x637, offset: 0x5A93C, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary count]', symObjAddr: 0x62C, symBinAddr: 0x8DDC, symSize: 0x8C }
+  - { offsetInCU: 0x698, offset: 0x5A99D, size: 0x8, addend: 0x0, symName: '___34-[MoEngageMutableDictionary count]_block_invoke', symObjAddr: 0x6B8, symBinAddr: 0x8E68, symSize: 0x34 }
+  - { offsetInCU: 0x6E7, offset: 0x5A9EC, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary objectForKeyedSubscript:]', symObjAddr: 0x6EC, symBinAddr: 0x8E9C, symSize: 0xDC }
+  - { offsetInCU: 0x760, offset: 0x5AA65, size: 0x8, addend: 0x0, symName: '___53-[MoEngageMutableDictionary objectForKeyedSubscript:]_block_invoke', symObjAddr: 0x7C8, symBinAddr: 0x8F78, symSize: 0x44 }
+  - { offsetInCU: 0x7BF, offset: 0x5AAC4, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary setObject:forKeyedSubscript:]', symObjAddr: 0x80C, symBinAddr: 0x8FBC, symSize: 0xC4 }
+  - { offsetInCU: 0x82F, offset: 0x5AB34, size: 0x8, addend: 0x0, symName: '___57-[MoEngageMutableDictionary setObject:forKeyedSubscript:]_block_invoke', symObjAddr: 0x8D0, symBinAddr: 0x9080, symSize: 0x10 }
+  - { offsetInCU: 0x88E, offset: 0x5AB93, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary dictionary]', symObjAddr: 0x8E0, symBinAddr: 0x9090, symSize: 0xB4 }
+  - { offsetInCU: 0x8EF, offset: 0x5ABF4, size: 0x8, addend: 0x0, symName: '___39-[MoEngageMutableDictionary dictionary]_block_invoke', symObjAddr: 0x994, symBinAddr: 0x9144, symSize: 0x3C }
+  - { offsetInCU: 0x93E, offset: 0x5AC43, size: 0x8, addend: 0x0, symName: '-[MoEngageMutableDictionary .cxx_destruct]', symObjAddr: 0x9D0, symBinAddr: 0x9180, symSize: 0x30 }
+  - { offsetInCU: 0x27, offset: 0x5B233, size: 0x8, addend: 0x0, symName: '+[MoEngageProxyUtils getAppDelegateProxyInfoPlistKey]', symObjAddr: 0x0, symBinAddr: 0x91B0, symSize: 0xC }
+  - { offsetInCU: 0x46, offset: 0x5B252, size: 0x8, addend: 0x0, symName: _moAppDelegateProxyConfigured, symObjAddr: 0x174A, symBinAddr: 0x15F80, symSize: 0x0 }
+  - { offsetInCU: 0x73, offset: 0x5B27F, size: 0x8, addend: 0x0, symName: '+[MoEngageProxyUtils getAppDelegateProxyInfoPlistKey]', symObjAddr: 0x0, symBinAddr: 0x91B0, symSize: 0xC }
+  - { offsetInCU: 0xA6, offset: 0x5B2B2, size: 0x8, addend: 0x0, symName: '+[MoEngageProxyUtils isAppDelegateProxyEnabled]', symObjAddr: 0xC, symBinAddr: 0x91BC, symSize: 0xE0 }
+  - { offsetInCU: 0x109, offset: 0x5B315, size: 0x8, addend: 0x0, symName: '+[MoEngageProxyUtils isAppDelegateProxyConfigured]', symObjAddr: 0xEC, symBinAddr: 0x929C, symSize: 0xC }
+  - { offsetInCU: 0x13C, offset: 0x5B348, size: 0x8, addend: 0x0, symName: '+[MoEngageProxyUtils setAppDelegateProxyConfigured]', symObjAddr: 0xF8, symBinAddr: 0x92A8, symSize: 0x10 }
 ...

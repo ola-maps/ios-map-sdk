@@ -1,7 +1,7 @@
 framework module MoEngageSecurity {
-  umbrella header "MoEngageSecurity.h"
-  export *
+  umbrella header "MoEngageSecurity-framework-iOS-umbrella.h"
 
+  export *
   module * { export * }
 }
 

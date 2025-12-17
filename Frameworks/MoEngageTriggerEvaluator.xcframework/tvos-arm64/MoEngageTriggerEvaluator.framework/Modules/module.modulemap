@@ -1,0 +1,11 @@
+framework module MoEngageTriggerEvaluator {
+  umbrella header "MoEngageTriggerEvaluator-framework-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MoEngageTriggerEvaluator.Swift {
+  header "MoEngageTriggerEvaluator-Swift.h"
+  requires objc
+}
