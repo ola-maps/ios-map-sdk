@@ -1,7 +1,7 @@
 framework module MoEngageObjCUtils {
-  umbrella header "MoEngageObjCUtils.h"
-  export *
+  umbrella header "MoEngageObjCUtils-framework-iOS-umbrella.h"
 
+  export *
   module * { export * }
 }
 

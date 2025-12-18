@@ -1,7 +1,7 @@
 framework module MoEngageSDK {
-  umbrella header "MoEngageSDK.h"
-  export *
+  umbrella header "MoEngageSDK-framework-iOS-umbrella.h"
 
+  export *
   module * { export * }
 }
 

@@ -1226,8 +1226,8 @@ MLN_EXPORT
  the text, if the first font lacks a glyph for the character, the next font is
  applied as a fallback, and so on.
  
- See the “[Customizing Fonts](doc:Customizing_Fonts)” guide for details on how
- this SDK chooses and renders fonts based on the value of this property.
+ See the “[Customizing Fonts](../customizing-fonts.html)” guide for details on
+ how this SDK chooses and renders fonts based on the value of this property.
  
  The default value of this property is an expression that evaluates to the array
  `Open Sans Regular`, `Arial Unicode MS Regular`. Set this property to `nil` to

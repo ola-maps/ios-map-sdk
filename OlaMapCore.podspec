@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name          = 'OlaMapCore'
-  spec.version       = '1.0.7.2'
+  spec.version       = '1.0.8'
   spec.summary       = 'OlaMap Core Service'
   spec.description   = 'OlaMapService is your go-to solution for essential map functionality, providing a seamless and intuitive experience for integrating maps into your applications.'
   spec.homepage      = 'https://maps.olakrutrim.com/'

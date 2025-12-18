@@ -6,63 +6,67 @@
 	<dict>
 		<key>Headers/MoEngageSDK-Swift.h</key>
 		<data>
-		KobdbdnkTwx4xhbhJNfbz69JVtA=
+		hbt2aw40toZd2dAb7SQsHIRMAY4=
+		</data>
+		<key>Headers/MoEngageSDK-framework-tvOS-umbrella.h</key>
+		<data>
+		qFjGC32qbYxd/yPGRw7MSfgo/0g=
 		</data>
 		<key>Headers/MoEngageSDK.h</key>
 		<data>
-		PfkQR3OWU7YnD8Jwt7tCSsQZyJM=
+		7aOohbsc4dkxs3hI4GRi4kLIS1s=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vtalpTn3OZ//pm92SJ+XBbIH6L4=
+		ElXan9myzV3uFiIC+mGhxfATr8A=
 		</data>
 		<key>Modules/MoEngageSDK.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		SOhejXJpZxgg9L7gd9US2bvq5Hs=
+		hMI2sFuZN1522SvuV55/5rmtjqw=
 		</data>
 		<key>Modules/MoEngageSDK.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		Vy8lHUYAZZ+as2qAEO4eym3tkvk=
+		iS0IdytSimSLzso7IoNJfUv1Kt8=
 		</data>
 		<key>Modules/MoEngageSDK.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		VtNPnvlTnYY6VxChiR0tWkq0K38=
+		cdRFfQK2PlOXyHsIoCohIE4XUZM=
 		</data>
 		<key>Modules/MoEngageSDK.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		Vy8lHUYAZZ+as2qAEO4eym3tkvk=
+		iS0IdytSimSLzso7IoNJfUv1Kt8=
 		</data>
 		<key>Modules/MoEngageSDK.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		GEmsCD4SnBVndxRWJbW7CbCV6VI=
+		5bLGLmOJ9sPcwnb/3T7rPweRVXg=
 		</data>
 		<key>Modules/MoEngageSDK.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		SOhejXJpZxgg9L7gd9US2bvq5Hs=
+		hMI2sFuZN1522SvuV55/5rmtjqw=
 		</data>
 		<key>Modules/MoEngageSDK.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		73sfsMIM1QlBax1aeN91VFvumWs=
+		UDAQlb08r2cbMQsZgPuohRZZE2Y=
 		</data>
 		<key>Modules/MoEngageSDK.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		9MnBEC5OG8C9XjQwFEz7W6ZsLEk=
+		n/LcgF7IEyuWzSaCkXy7YRCAxKU=
 		</data>
 		<key>Modules/MoEngageSDK.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		73sfsMIM1QlBax1aeN91VFvumWs=
+		UDAQlb08r2cbMQsZgPuohRZZE2Y=
 		</data>
 		<key>Modules/MoEngageSDK.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		d2zdXwCqykQbcpIT4OIe3uBRJ5Q=
+		UMtqAbZxGJc/S4/BSkhILLZbYy0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		2ak8eYUxm8X1A9VT3ov/cSB4ACE=
+		a82mrD4Bg37m6KMoVtRqGQlcRZw=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		Vz0+wbyBCEEx3ttjhliart6/kZw=
+		CF2NLBGxYJB8H243y6km+CdyotE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -71,98 +75,105 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1BRPbduNaoChVRZLTSRwXdy9Y+ohqiDGtj1pdHC9Wq4=
+			prLcftu0gNR1EXWrhbwcS4cBx4zHrjjj/gxzZjJvOE8=
+			</data>
+		</dict>
+		<key>Headers/MoEngageSDK-framework-tvOS-umbrella.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LGHME9TCT4UFA2E9ANcBJCD5orl63vArA9yr3iXvh7o=
 			</data>
 		</dict>
 		<key>Headers/MoEngageSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lm4kdgbP2BL1M7BZ8E3cp+ooSqtz5fsiPPIKvvPPOgQ=
+			fekrpRPyjPBhcu94TWIyNBx/0C8d9mB42aNh1D4bBGM=
 			</data>
 		</dict>
 		<key>Modules/MoEngageSDK.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kbLJxhco+lxAL4yjjOVFHRtATHkhS1xzm5j1RgMr9zc=
+			dh10kyQqFJWNC8eli0zSsJRm7olKYr+hMNlOzmIpQ28=
 			</data>
 		</dict>
 		<key>Modules/MoEngageSDK.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hh3BQZYc6EhnvbnS0OQ/WU9Xq/w3RcpcmfQTR2JEuCU=
+			nLVm/PjO2e9PGLQmR0RQTmZleo8ABc+0RoBFIHhQ0l0=
 			</data>
 		</dict>
 		<key>Modules/MoEngageSDK.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MYEJPT2deLZlXGiuD5S5Xv2QV/PDFl2T0SV7V75SK4U=
+			RrlfV+jrPt+jCF56oWPfNpGTbZ/nC0BBwHBk07JNDg8=
 			</data>
 		</dict>
 		<key>Modules/MoEngageSDK.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hh3BQZYc6EhnvbnS0OQ/WU9Xq/w3RcpcmfQTR2JEuCU=
+			nLVm/PjO2e9PGLQmR0RQTmZleo8ABc+0RoBFIHhQ0l0=
 			</data>
 		</dict>
 		<key>Modules/MoEngageSDK.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			avEuOynAs/4ikkSS+H/ZVuIeoO4rbNqrOr48XRHAnjw=
+			hZEQrJ2OVQO5hpeN95NYF7WcUt9oCxuseq7C+uUKSgA=
 			</data>
 		</dict>
 		<key>Modules/MoEngageSDK.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kbLJxhco+lxAL4yjjOVFHRtATHkhS1xzm5j1RgMr9zc=
+			dh10kyQqFJWNC8eli0zSsJRm7olKYr+hMNlOzmIpQ28=
 			</data>
 		</dict>
 		<key>Modules/MoEngageSDK.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ioKFMF2F9kmfxeQYhvhOHVffHaIXUBt85bbk276iRRQ=
+			Paslappr7buV9yJ7HnW6z/6UcaSAJAMn81sPn4lUfTg=
 			</data>
 		</dict>
 		<key>Modules/MoEngageSDK.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wt/juLKZKmhsRGuw1x50pj0QFR90QOVJqnQEQPDXmZw=
+			98dws9SNJXrX1lbQ5jmqVrbEVvQmLhnOMXJXJFI5UfU=
 			</data>
 		</dict>
 		<key>Modules/MoEngageSDK.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ioKFMF2F9kmfxeQYhvhOHVffHaIXUBt85bbk276iRRQ=
+			Paslappr7buV9yJ7HnW6z/6UcaSAJAMn81sPn4lUfTg=
 			</data>
 		</dict>
 		<key>Modules/MoEngageSDK.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+ui58mjUYRCy9rj2SG6CFLgUoN+ZGL6Ro+VP+UqST3Q=
+			U2SYrdYB/jaGLln507m3sH8+dAwdR0kerGBibYkN8fs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qewQQluJIZhx7gedzF9LewaONOreb9HGReVAgnbt61Y=
+			CFdLG4VawB9uFxPTpUe87b+o0KAM+TWLjD4+7zFdPJs=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W9ScjdNuhkNHOADBUpCBZNdUXB/rDj/W/bWEenHcpU8=
+			tcmLsgJ3R76Wk8lzHDl/TLuqqs7vyz7AFq7eytixNZw=
 			</data>
 		</dict>
 	</dict>

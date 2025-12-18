@@ -2,16 +2,18 @@
 
 #import <MetalKit/MetalKit.h>
 
-typedef struct {
+typedef struct
+{
     MTKView *mtkView;
-    id<MTLDevice> device;
+    id <MTLDevice> device;
     MTLRenderPassDescriptor *renderPassDescriptor;
-    id<MTLCommandBuffer> commandBuffer;
+    id <MTLCommandBuffer> commandBuffer;
 } MLNBackendResource;
 
 #else
 
-typedef struct {
+typedef struct
+{
 } MLNBackendResource;
 
 #endif

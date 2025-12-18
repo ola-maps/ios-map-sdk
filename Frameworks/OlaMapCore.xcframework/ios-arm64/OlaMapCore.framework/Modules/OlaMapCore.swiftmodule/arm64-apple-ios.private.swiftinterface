@@ -1,17 +1,17 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OlaMapCore
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name OlaMapCore
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
 import Combine
 import CoreLocation
 import DeveloperToolsSupport
 import Foundation
 import MapLibre
-import MoEngageSDK
 @_exported import OlaMapCore
 import Swift
 import SwiftUI
 import UIKit
+import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -91,22 +91,22 @@ extension OlaMapCore.OlaMapInstrumentation {
   public func endNavigation()
   public func mapPermissionStatus(_ status: Swift.String)
 }
-@objc @_Concurrency.MainActor(unsafe) open class OlaAnnotationView : MapLibre.MLNAnnotationView {
-  @_Concurrency.MainActor(unsafe) public init(identifier: Swift.String)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) public var didSelectOnAnnotation: ((_ identifier: Swift.String) -> Swift.Void)?
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func prepareForReuse()
-  @_Concurrency.MainActor(unsafe) public func addOffset(point: CoreFoundation.CGVector)
-  @_Concurrency.MainActor(unsafe) public func updateColor(_ color: UIKit.UIColor)
-  @_Concurrency.MainActor(unsafe) public func updateIdentifier(_ id: Swift.String)
-  @_Concurrency.MainActor(unsafe) public func setRotate(_ value: Swift.Double)
+@objc @_Concurrency.MainActor @preconcurrency open class OlaAnnotationView : MapLibre.MLNAnnotationView {
+  @_Concurrency.MainActor @preconcurrency public init(identifier: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency public var didSelectOnAnnotation: ((_ identifier: Swift.String) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func prepareForReuse()
+  @_Concurrency.MainActor @preconcurrency public func addOffset(point: CoreFoundation.CGVector)
+  @_Concurrency.MainActor @preconcurrency public func updateColor(_ color: UIKit.UIColor)
+  @_Concurrency.MainActor @preconcurrency public func updateIdentifier(_ id: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func setRotate(_ value: Swift.Double)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class CustomAnnotationView : OlaMapCore.OlaAnnotationView {
-  @_Concurrency.MainActor(unsafe) convenience public init(identifier: Swift.String, image: UIKit.UIImage?, color: UIKit.UIColor? = nil, opacity: CoreFoundation.CGFloat? = nil, markerView: UIKit.UIView? = nil)
-  @_Concurrency.MainActor(unsafe) convenience public init(identifier: Swift.String, image: UIKit.UIImage?, color: UIKit.UIColor? = nil, opacity: CoreFoundation.CGFloat? = nil, markerView: UIKit.UIView? = nil, rotation: Swift.Double)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
-  @_Concurrency.MainActor(unsafe) public func rotateBy(_ angle: Swift.Double)
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class CustomAnnotationView : OlaMapCore.OlaAnnotationView {
+  @_Concurrency.MainActor @preconcurrency convenience public init(identifier: Swift.String, image: UIKit.UIImage?, color: UIKit.UIColor? = nil, opacity: CoreFoundation.CGFloat? = nil, markerView: UIKit.UIView? = nil)
+  @_Concurrency.MainActor @preconcurrency convenience public init(identifier: Swift.String, image: UIKit.UIImage?, color: UIKit.UIColor? = nil, opacity: CoreFoundation.CGFloat? = nil, markerView: UIKit.UIView? = nil, rotation: Swift.Double)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency public func rotateBy(_ angle: Swift.Double)
   @objc deinit
 }
 extension OlaMapCore.OlaMapService {
@@ -229,8 +229,8 @@ public enum OlaTrafficType : Swift.Codable {
   }
   public func color() -> UIKit.UIColor
   public static func == (a: OlaMapCore.OlaTrafficType, b: OlaMapCore.OlaTrafficType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -308,12 +308,12 @@ extension OlaMapCore.MapUtility {
   public class func getUncommonRoute(_ route1: [OlaMapCore.OlaCoordinate], _ route2: [OlaMapCore.OlaCoordinate]) -> ([OlaMapCore.OlaCoordinate], [OlaMapCore.OlaCoordinate])
   public static func willIntersect(_ point11: OlaMapCore.OlaCoordinate, _ point12: OlaMapCore.OlaCoordinate, _ point21: OlaMapCore.OlaCoordinate, _ point22: OlaMapCore.OlaCoordinate) -> Swift.Bool
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class CabAnnotationView : OlaMapCore.OlaAnnotationView {
-  @_Concurrency.MainActor(unsafe) convenience public init(identifier: Swift.String, cabImage: UIKit.UIImage?, color: UIKit.UIColor? = nil, opacity: CoreFoundation.CGFloat? = nil, markerView: UIKit.UIView? = nil)
-  @_Concurrency.MainActor(unsafe) convenience public init(identifier: Swift.String, cabImage: UIKit.UIImage?, color: UIKit.UIColor? = nil, opacity: CoreFoundation.CGFloat? = nil, markerView: UIKit.UIView? = nil, rotation: Swift.Double)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
-  @_Concurrency.MainActor(unsafe) public func rotateBy(_ angle: Swift.Double)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class CabAnnotationView : OlaMapCore.OlaAnnotationView {
+  @_Concurrency.MainActor @preconcurrency convenience public init(identifier: Swift.String, cabImage: UIKit.UIImage?, color: UIKit.UIColor? = nil, opacity: CoreFoundation.CGFloat? = nil, markerView: UIKit.UIView? = nil)
+  @_Concurrency.MainActor @preconcurrency convenience public init(identifier: Swift.String, cabImage: UIKit.UIImage?, color: UIKit.UIColor? = nil, opacity: CoreFoundation.CGFloat? = nil, markerView: UIKit.UIView? = nil, rotation: Swift.Double)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency public func rotateBy(_ angle: Swift.Double)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
   @objc deinit
 }
 extension OlaMapCore.OlaMapService : MapLibre.MLNMapViewDelegate {
@@ -415,6 +415,27 @@ extension Foundation.NSNotification.Name {
 @_hasMissingDesignatedInitializers public class MapRouteHelper {
   @objc deinit
 }
+public struct ClusterMarker {
+  public var markerId: Swift.String
+  public var image: UIKit.UIImage
+  public var coordinate: OlaMapCore.OlaCoordinate
+  public init(markerId: Swift.String, image: UIKit.UIImage, coordinate: OlaMapCore.OlaCoordinate)
+}
+public struct ClusterViewDecorator {
+  public var backgroundColor: UIKit.UIColor
+  public var opacity: Swift.Double
+  public var radius: Swift.Double
+  public var cluserViewRadius: Swift.Double
+  public var borderWidth: Swift.Double
+  public var borderColor: UIKit.UIColor
+  public var fontSize: Swift.Double
+  public var fontColor: UIKit.UIColor
+  public init(backgroundColor: UIKit.UIColor, opacity: Swift.Double, radius: Swift.Double, cluserViewRadius: Swift.Double, borderWidth: Swift.Double, borderColor: UIKit.UIColor, fontSize: Swift.Double, fontColor: UIKit.UIColor)
+}
+extension OlaMapCore.OlaMapService {
+  public func drawClusterMarker(_ markers: [OlaMapCore.ClusterMarker], clusterDecorator: OlaMapCore.ClusterViewDecorator)
+  public func clearCluster()
+}
 extension Foundation.URLRequest {
   public func cURL(pretty: Swift.Bool = false) -> Swift.String
 }
@@ -441,8 +462,8 @@ public struct InfoAnnotationDecorator {
   public let cornerRadius: CoreFoundation.CGFloat
   public init(font: UIKit.UIFont = UIFont.systemFont(ofSize: 16, weight: .medium), labelActiveColor: UIKit.UIColor = .black, labelInactiveColor: UIKit.UIColor = .white, activeBackgroudColor: UIKit.UIColor = .white, inactiveBackgroundColor: UIKit.UIColor = .gray, height: CoreFoundation.CGFloat = 32.0, cornerRadius: CoreFoundation.CGFloat = 4.0)
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class InfoAnnotationView : OlaMapCore.OlaAnnotationView {
-  @_Concurrency.MainActor(unsafe) convenience public init(identifier: Swift.String, model: OlaMapCore.InfoAnnotationDecorator, text: Swift.String, isActive: Swift.Bool)
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class InfoAnnotationView : OlaMapCore.OlaAnnotationView {
+  @_Concurrency.MainActor @preconcurrency convenience public init(identifier: Swift.String, model: OlaMapCore.InfoAnnotationDecorator, text: Swift.String, isActive: Swift.Bool)
   @objc deinit
 }
 extension OlaMapCore.OlaMapGesture : Swift.Equatable {}

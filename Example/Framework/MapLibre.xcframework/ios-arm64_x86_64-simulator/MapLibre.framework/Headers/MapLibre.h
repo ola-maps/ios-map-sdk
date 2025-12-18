@@ -69,7 +69,6 @@
 #import <MapLibre/MLNMapView+IBAdditions.h>
 #import <MapLibre/MLNMapView.h>
 #import <MapLibre/MLNMapViewDelegate.h>
-#import <MapLibre/MLNScaleBar.h>
 #import <MapLibre/MLNUserLocation.h>
 #import <MapLibre/MLNUserLocationAnnotationView.h>
 #import <MapLibre/MLNUserLocationAnnotationViewStyle.h>
