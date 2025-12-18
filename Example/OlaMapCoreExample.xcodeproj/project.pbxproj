@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47829A782EF3343C001A8E91 /* MapLibre.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 712370A12C6C0D25002BFD78 /* MapLibre.xcframework */; };
-		47829A792EF3343C001A8E91 /* MapLibre.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 712370A12C6C0D25002BFD78 /* MapLibre.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		47829A7A2EF3343C001A8E91 /* MoEngageAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709A2C6C0D25002BFD78 /* MoEngageAnalytics.xcframework */; };
-		47829A7B2EF3343C001A8E91 /* MoEngageAnalytics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709A2C6C0D25002BFD78 /* MoEngageAnalytics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		47829A7C2EF3343C001A8E91 /* MoEngageCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709E2C6C0D25002BFD78 /* MoEngageCore.xcframework */; };
-		47829A7D2EF3343C001A8E91 /* MoEngageCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709E2C6C0D25002BFD78 /* MoEngageCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		47829A7E2EF3343C001A8E91 /* MoEngageMessaging.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709F2C6C0D25002BFD78 /* MoEngageMessaging.xcframework */; };
-		47829A7F2EF3343C001A8E91 /* MoEngageMessaging.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709F2C6C0D25002BFD78 /* MoEngageMessaging.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		47829A802EF3343C001A8E91 /* MoEngageObjCUtils.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709C2C6C0D25002BFD78 /* MoEngageObjCUtils.xcframework */; };
-		47829A812EF3343C001A8E91 /* MoEngageObjCUtils.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709C2C6C0D25002BFD78 /* MoEngageObjCUtils.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		47829A822EF3343C001A8E91 /* MoEngageSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709B2C6C0D25002BFD78 /* MoEngageSDK.xcframework */; };
-		47829A832EF3343C001A8E91 /* MoEngageSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709B2C6C0D25002BFD78 /* MoEngageSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		47829A842EF3343D001A8E91 /* MoEngageSecurity.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 712370A02C6C0D25002BFD78 /* MoEngageSecurity.xcframework */; };
-		47829A852EF3343D001A8E91 /* MoEngageSecurity.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 712370A02C6C0D25002BFD78 /* MoEngageSecurity.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		47829A862EF3343D001A8E91 /* OlaMapCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709D2C6C0D25002BFD78 /* OlaMapCore.xcframework */; };
-		47829A872EF3343D001A8E91 /* OlaMapCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7123709D2C6C0D25002BFD78 /* OlaMapCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		47829A8C2EF3343D001A8E91 /* MoEngageCards.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47829A892EF3343D001A8E91 /* MoEngageCards.xcframework */; };
-		47829A8D2EF3343D001A8E91 /* MoEngageCards.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47829A892EF3343D001A8E91 /* MoEngageCards.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		47829A8E2EF3343D001A8E91 /* MoEngageInApps.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47829A8A2EF3343D001A8E91 /* MoEngageInApps.xcframework */; };
-		47829A8F2EF3343D001A8E91 /* MoEngageInApps.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47829A8A2EF3343D001A8E91 /* MoEngageInApps.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		47829A902EF3343D001A8E91 /* MoEngageTriggerEvaluator.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47829A8B2EF3343D001A8E91 /* MoEngageTriggerEvaluator.xcframework */; };
-		47829A912EF3343D001A8E91 /* MoEngageTriggerEvaluator.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47829A8B2EF3343D001A8E91 /* MoEngageTriggerEvaluator.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47829B2C2EF3EE71001A8E91 /* OlaMapCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B212EF3EE71001A8E91 /* OlaMapCore.xcframework */; };
+		47829B2D2EF3EE71001A8E91 /* OlaMapCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B212EF3EE71001A8E91 /* OlaMapCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47829B2E2EF3EE71001A8E91 /* MoEngageCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B222EF3EE71001A8E91 /* MoEngageCore.xcframework */; };
+		47829B2F2EF3EE71001A8E91 /* MoEngageCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B222EF3EE71001A8E91 /* MoEngageCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47829B302EF3EE71001A8E91 /* MoEngageTriggerEvaluator.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B232EF3EE71001A8E91 /* MoEngageTriggerEvaluator.xcframework */; };
+		47829B312EF3EE71001A8E91 /* MoEngageTriggerEvaluator.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B232EF3EE71001A8E91 /* MoEngageTriggerEvaluator.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47829B322EF3EE71001A8E91 /* MoEngageAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B242EF3EE71001A8E91 /* MoEngageAnalytics.xcframework */; };
+		47829B332EF3EE71001A8E91 /* MoEngageAnalytics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B242EF3EE71001A8E91 /* MoEngageAnalytics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47829B342EF3EE71001A8E91 /* MoEngageObjCUtils.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B252EF3EE71001A8E91 /* MoEngageObjCUtils.xcframework */; };
+		47829B352EF3EE71001A8E91 /* MoEngageObjCUtils.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B252EF3EE71001A8E91 /* MoEngageObjCUtils.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47829B362EF3EE71001A8E91 /* MoEngageSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B262EF3EE71001A8E91 /* MoEngageSDK.xcframework */; };
+		47829B372EF3EE71001A8E91 /* MoEngageSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B262EF3EE71001A8E91 /* MoEngageSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47829B382EF3EE71001A8E91 /* MoEngageMessaging.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B272EF3EE71001A8E91 /* MoEngageMessaging.xcframework */; };
+		47829B392EF3EE71001A8E91 /* MoEngageMessaging.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B272EF3EE71001A8E91 /* MoEngageMessaging.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47829B3A2EF3EE71001A8E91 /* MoEngageSecurity.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B282EF3EE71001A8E91 /* MoEngageSecurity.xcframework */; };
+		47829B3B2EF3EE71001A8E91 /* MoEngageSecurity.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B282EF3EE71001A8E91 /* MoEngageSecurity.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47829B3C2EF3EE71001A8E91 /* MoEngageCards.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B292EF3EE71001A8E91 /* MoEngageCards.xcframework */; };
+		47829B3D2EF3EE71001A8E91 /* MoEngageCards.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B292EF3EE71001A8E91 /* MoEngageCards.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47829B3E2EF3EE71001A8E91 /* MoEngageInApps.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B2A2EF3EE71001A8E91 /* MoEngageInApps.xcframework */; };
+		47829B3F2EF3EE71001A8E91 /* MoEngageInApps.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B2A2EF3EE71001A8E91 /* MoEngageInApps.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47829B402EF3EE71001A8E91 /* MapLibre.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B2B2EF3EE71001A8E91 /* MapLibre.xcframework */; };
+		47829B412EF3EE71001A8E91 /* MapLibre.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47829B2B2EF3EE71001A8E91 /* MapLibre.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		712209E22C510FB8006583AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712209E12C510FB8006583AC /* AppDelegate.swift */; };
 		712209E42C510FB8006583AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712209E32C510FB8006583AC /* SceneDelegate.swift */; };
 		712209E62C510FB8006583AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712209E52C510FB8006583AC /* ViewController.swift */; };
@@ -50,23 +50,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		47829A882EF3343D001A8E91 /* Embed Frameworks */ = {
+		47829B422EF3EE71001A8E91 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				47829A872EF3343D001A8E91 /* OlaMapCore.xcframework in Embed Frameworks */,
-				47829A8D2EF3343D001A8E91 /* MoEngageCards.xcframework in Embed Frameworks */,
-				47829A792EF3343C001A8E91 /* MapLibre.xcframework in Embed Frameworks */,
-				47829A8F2EF3343D001A8E91 /* MoEngageInApps.xcframework in Embed Frameworks */,
-				47829A7F2EF3343C001A8E91 /* MoEngageMessaging.xcframework in Embed Frameworks */,
-				47829A852EF3343D001A8E91 /* MoEngageSecurity.xcframework in Embed Frameworks */,
-				47829A7B2EF3343C001A8E91 /* MoEngageAnalytics.xcframework in Embed Frameworks */,
-				47829A832EF3343C001A8E91 /* MoEngageSDK.xcframework in Embed Frameworks */,
-				47829A812EF3343C001A8E91 /* MoEngageObjCUtils.xcframework in Embed Frameworks */,
-				47829A912EF3343D001A8E91 /* MoEngageTriggerEvaluator.xcframework in Embed Frameworks */,
-				47829A7D2EF3343C001A8E91 /* MoEngageCore.xcframework in Embed Frameworks */,
+				47829B312EF3EE71001A8E91 /* MoEngageTriggerEvaluator.xcframework in Embed Frameworks */,
+				47829B3D2EF3EE71001A8E91 /* MoEngageCards.xcframework in Embed Frameworks */,
+				47829B392EF3EE71001A8E91 /* MoEngageMessaging.xcframework in Embed Frameworks */,
+				47829B3F2EF3EE71001A8E91 /* MoEngageInApps.xcframework in Embed Frameworks */,
+				47829B2D2EF3EE71001A8E91 /* OlaMapCore.xcframework in Embed Frameworks */,
+				47829B2F2EF3EE71001A8E91 /* MoEngageCore.xcframework in Embed Frameworks */,
+				47829B372EF3EE71001A8E91 /* MoEngageSDK.xcframework in Embed Frameworks */,
+				47829B412EF3EE71001A8E91 /* MapLibre.xcframework in Embed Frameworks */,
+				47829B352EF3EE71001A8E91 /* MoEngageObjCUtils.xcframework in Embed Frameworks */,
+				47829B3B2EF3EE71001A8E91 /* MoEngageSecurity.xcframework in Embed Frameworks */,
+				47829B332EF3EE71001A8E91 /* MoEngageAnalytics.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,6 +77,28 @@
 		47829A892EF3343D001A8E91 /* MoEngageCards.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; name = MoEngageCards.xcframework; path = Framework/MoEngageCards.xcframework; sourceTree = "<group>"; };
 		47829A8A2EF3343D001A8E91 /* MoEngageInApps.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; name = MoEngageInApps.xcframework; path = Framework/MoEngageInApps.xcframework; sourceTree = "<group>"; };
 		47829A8B2EF3343D001A8E91 /* MoEngageTriggerEvaluator.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; name = MoEngageTriggerEvaluator.xcframework; path = Framework/MoEngageTriggerEvaluator.xcframework; sourceTree = "<group>"; };
+		47829AF82EF3EE28001A8E91 /* MapLibre.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MapLibre.xcframework; sourceTree = "<group>"; };
+		47829AF92EF3EE28001A8E91 /* MoEngageAnalytics.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageAnalytics.xcframework; sourceTree = "<group>"; };
+		47829AFA2EF3EE28001A8E91 /* MoEngageCards.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageCards.xcframework; sourceTree = "<group>"; };
+		47829AFB2EF3EE28001A8E91 /* MoEngageCore.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageCore.xcframework; sourceTree = "<group>"; };
+		47829AFC2EF3EE28001A8E91 /* MoEngageInApps.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageInApps.xcframework; sourceTree = "<group>"; };
+		47829AFD2EF3EE28001A8E91 /* MoEngageMessaging.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageMessaging.xcframework; sourceTree = "<group>"; };
+		47829AFE2EF3EE28001A8E91 /* MoEngageObjCUtils.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageObjCUtils.xcframework; sourceTree = "<group>"; };
+		47829AFF2EF3EE28001A8E91 /* MoEngageSDK.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageSDK.xcframework; sourceTree = "<group>"; };
+		47829B002EF3EE28001A8E91 /* MoEngageSecurity.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageSecurity.xcframework; sourceTree = "<group>"; };
+		47829B012EF3EE28001A8E91 /* MoEngageTriggerEvaluator.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageTriggerEvaluator.xcframework; sourceTree = "<group>"; };
+		47829B022EF3EE28001A8E91 /* OlaMapCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = OlaMapCore.xcframework; sourceTree = "<group>"; };
+		47829B212EF3EE71001A8E91 /* OlaMapCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OlaMapCore.xcframework; path = Frameworks/OlaMapCore.xcframework; sourceTree = "<group>"; };
+		47829B222EF3EE71001A8E91 /* MoEngageCore.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; name = MoEngageCore.xcframework; path = Frameworks/MoEngageCore.xcframework; sourceTree = "<group>"; };
+		47829B232EF3EE71001A8E91 /* MoEngageTriggerEvaluator.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; name = MoEngageTriggerEvaluator.xcframework; path = Frameworks/MoEngageTriggerEvaluator.xcframework; sourceTree = "<group>"; };
+		47829B242EF3EE71001A8E91 /* MoEngageAnalytics.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; name = MoEngageAnalytics.xcframework; path = Frameworks/MoEngageAnalytics.xcframework; sourceTree = "<group>"; };
+		47829B252EF3EE71001A8E91 /* MoEngageObjCUtils.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; name = MoEngageObjCUtils.xcframework; path = Frameworks/MoEngageObjCUtils.xcframework; sourceTree = "<group>"; };
+		47829B262EF3EE71001A8E91 /* MoEngageSDK.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; name = MoEngageSDK.xcframework; path = Frameworks/MoEngageSDK.xcframework; sourceTree = "<group>"; };
+		47829B272EF3EE71001A8E91 /* MoEngageMessaging.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; name = MoEngageMessaging.xcframework; path = Frameworks/MoEngageMessaging.xcframework; sourceTree = "<group>"; };
+		47829B282EF3EE71001A8E91 /* MoEngageSecurity.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; name = MoEngageSecurity.xcframework; path = Frameworks/MoEngageSecurity.xcframework; sourceTree = "<group>"; };
+		47829B292EF3EE71001A8E91 /* MoEngageCards.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; name = MoEngageCards.xcframework; path = Frameworks/MoEngageCards.xcframework; sourceTree = "<group>"; };
+		47829B2A2EF3EE71001A8E91 /* MoEngageInApps.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; name = MoEngageInApps.xcframework; path = Frameworks/MoEngageInApps.xcframework; sourceTree = "<group>"; };
+		47829B2B2EF3EE71001A8E91 /* MapLibre.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MapLibre.xcframework; path = Frameworks/MapLibre.xcframework; sourceTree = "<group>"; };
 		7111BBEF2C63B5DC00D36895 /* OlaMapCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OlaMapCore.xcframework; path = ../Framework/OlaMapCore.xcframework; sourceTree = "<group>"; };
 		712209DE2C510FB8006583AC /* OlaMapCoreExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OlaMapCoreExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		712209E12C510FB8006583AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,14 +113,6 @@
 		71220AE82C511AD0006583AC /* AnnotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationViewController.swift; sourceTree = "<group>"; };
 		71220AEA2C511AD0006583AC /* PolylineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolylineViewController.swift; sourceTree = "<group>"; };
 		71220AEB2C511AD0006583AC /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		7123709A2C6C0D25002BFD78 /* MoEngageAnalytics.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageAnalytics.xcframework; sourceTree = "<group>"; };
-		7123709B2C6C0D25002BFD78 /* MoEngageSDK.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageSDK.xcframework; sourceTree = "<group>"; };
-		7123709C2C6C0D25002BFD78 /* MoEngageObjCUtils.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageObjCUtils.xcframework; sourceTree = "<group>"; };
-		7123709D2C6C0D25002BFD78 /* OlaMapCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = OlaMapCore.xcframework; sourceTree = "<group>"; };
-		7123709E2C6C0D25002BFD78 /* MoEngageCore.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageCore.xcframework; sourceTree = "<group>"; };
-		7123709F2C6C0D25002BFD78 /* MoEngageMessaging.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageMessaging.xcframework; sourceTree = "<group>"; };
-		712370A02C6C0D25002BFD78 /* MoEngageSecurity.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BPWYRAF5X7:MoEngage Inc."; lastKnownFileType = wrapper.xcframework; path = MoEngageSecurity.xcframework; sourceTree = "<group>"; };
-		712370A12C6C0D25002BFD78 /* MapLibre.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MapLibre.xcframework; sourceTree = "<group>"; };
 		71763CB22C513C0800964703 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 		71763CB52C513C6B00964703 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		71763CB72C513DE200964703 /* GenericCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericCell.swift; sourceTree = "<group>"; };
@@ -114,23 +128,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47829A862EF3343D001A8E91 /* OlaMapCore.xcframework in Frameworks */,
-				47829A8C2EF3343D001A8E91 /* MoEngageCards.xcframework in Frameworks */,
-				47829A782EF3343C001A8E91 /* MapLibre.xcframework in Frameworks */,
-				47829A8E2EF3343D001A8E91 /* MoEngageInApps.xcframework in Frameworks */,
-				47829A7E2EF3343C001A8E91 /* MoEngageMessaging.xcframework in Frameworks */,
-				47829A842EF3343D001A8E91 /* MoEngageSecurity.xcframework in Frameworks */,
-				47829A7A2EF3343C001A8E91 /* MoEngageAnalytics.xcframework in Frameworks */,
-				47829A822EF3343C001A8E91 /* MoEngageSDK.xcframework in Frameworks */,
-				47829A802EF3343C001A8E91 /* MoEngageObjCUtils.xcframework in Frameworks */,
-				47829A902EF3343D001A8E91 /* MoEngageTriggerEvaluator.xcframework in Frameworks */,
-				47829A7C2EF3343C001A8E91 /* MoEngageCore.xcframework in Frameworks */,
+				47829B302EF3EE71001A8E91 /* MoEngageTriggerEvaluator.xcframework in Frameworks */,
+				47829B3C2EF3EE71001A8E91 /* MoEngageCards.xcframework in Frameworks */,
+				47829B382EF3EE71001A8E91 /* MoEngageMessaging.xcframework in Frameworks */,
+				47829B3E2EF3EE71001A8E91 /* MoEngageInApps.xcframework in Frameworks */,
+				47829B2C2EF3EE71001A8E91 /* OlaMapCore.xcframework in Frameworks */,
+				47829B2E2EF3EE71001A8E91 /* MoEngageCore.xcframework in Frameworks */,
+				47829B362EF3EE71001A8E91 /* MoEngageSDK.xcframework in Frameworks */,
+				47829B402EF3EE71001A8E91 /* MapLibre.xcframework in Frameworks */,
+				47829B342EF3EE71001A8E91 /* MoEngageObjCUtils.xcframework in Frameworks */,
+				47829B3A2EF3EE71001A8E91 /* MoEngageSecurity.xcframework in Frameworks */,
+				47829B322EF3EE71001A8E91 /* MoEngageAnalytics.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47829B032EF3EE28001A8E91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47829AF82EF3EE28001A8E91 /* MapLibre.xcframework */,
+				47829AF92EF3EE28001A8E91 /* MoEngageAnalytics.xcframework */,
+				47829AFA2EF3EE28001A8E91 /* MoEngageCards.xcframework */,
+				47829AFB2EF3EE28001A8E91 /* MoEngageCore.xcframework */,
+				47829AFC2EF3EE28001A8E91 /* MoEngageInApps.xcframework */,
+				47829AFD2EF3EE28001A8E91 /* MoEngageMessaging.xcframework */,
+				47829AFE2EF3EE28001A8E91 /* MoEngageObjCUtils.xcframework */,
+				47829AFF2EF3EE28001A8E91 /* MoEngageSDK.xcframework */,
+				47829B002EF3EE28001A8E91 /* MoEngageSecurity.xcframework */,
+				47829B012EF3EE28001A8E91 /* MoEngageTriggerEvaluator.xcframework */,
+				47829B022EF3EE28001A8E91 /* OlaMapCore.xcframework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 		712209D52C510FB8006583AC = {
 			isa = PBXGroup;
 			children = (
@@ -154,7 +186,7 @@
 		712209E02C510FB8006583AC /* OlaMapCoreExample */ = {
 			isa = PBXGroup;
 			children = (
-				712370992C6C0D25002BFD78 /* Framework */,
+				47829B032EF3EE28001A8E91 /* Frameworks */,
 				71220AE52C511AB0006583AC /* Usecases */,
 				71763CB42C513C6000964703 /* Utils */,
 				712209E12C510FB8006583AC /* AppDelegate.swift */,
@@ -172,6 +204,17 @@
 		71220ACF2C5114F7006583AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				47829B2B2EF3EE71001A8E91 /* MapLibre.xcframework */,
+				47829B242EF3EE71001A8E91 /* MoEngageAnalytics.xcframework */,
+				47829B292EF3EE71001A8E91 /* MoEngageCards.xcframework */,
+				47829B222EF3EE71001A8E91 /* MoEngageCore.xcframework */,
+				47829B2A2EF3EE71001A8E91 /* MoEngageInApps.xcframework */,
+				47829B272EF3EE71001A8E91 /* MoEngageMessaging.xcframework */,
+				47829B252EF3EE71001A8E91 /* MoEngageObjCUtils.xcframework */,
+				47829B262EF3EE71001A8E91 /* MoEngageSDK.xcframework */,
+				47829B282EF3EE71001A8E91 /* MoEngageSecurity.xcframework */,
+				47829B232EF3EE71001A8E91 /* MoEngageTriggerEvaluator.xcframework */,
+				47829B212EF3EE71001A8E91 /* OlaMapCore.xcframework */,
 				47829A892EF3343D001A8E91 /* MoEngageCards.xcframework */,
 				47829A8A2EF3343D001A8E91 /* MoEngageInApps.xcframework */,
 				47829A8B2EF3343D001A8E91 /* MoEngageTriggerEvaluator.xcframework */,
@@ -195,21 +238,6 @@
 			path = Usecases;
 			sourceTree = "<group>";
 		};
-		712370992C6C0D25002BFD78 /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				7123709A2C6C0D25002BFD78 /* MoEngageAnalytics.xcframework */,
-				7123709B2C6C0D25002BFD78 /* MoEngageSDK.xcframework */,
-				7123709C2C6C0D25002BFD78 /* MoEngageObjCUtils.xcframework */,
-				7123709D2C6C0D25002BFD78 /* OlaMapCore.xcframework */,
-				7123709E2C6C0D25002BFD78 /* MoEngageCore.xcframework */,
-				7123709F2C6C0D25002BFD78 /* MoEngageMessaging.xcframework */,
-				712370A02C6C0D25002BFD78 /* MoEngageSecurity.xcframework */,
-				712370A12C6C0D25002BFD78 /* MapLibre.xcframework */,
-			);
-			path = Framework;
-			sourceTree = SOURCE_ROOT;
-		};
 		71763CB42C513C6000964703 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,7 +256,7 @@
 				712209DA2C510FB8006583AC /* Sources */,
 				712209DB2C510FB8006583AC /* Frameworks */,
 				712209DC2C510FB8006583AC /* Resources */,
-				47829A882EF3343D001A8E91 /* Embed Frameworks */,
+				47829B422EF3EE71001A8E91 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

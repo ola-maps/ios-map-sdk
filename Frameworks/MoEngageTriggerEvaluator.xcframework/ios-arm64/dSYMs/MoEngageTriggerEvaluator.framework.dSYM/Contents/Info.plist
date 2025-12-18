@@ -5,7 +5,11 @@
 		<key>CFBundleDevelopmentRegion</key>
 		<string>English</string>
 		<key>CFBundleIdentifier</key>
+<<<<<<<< HEAD:Frameworks/MoEngageTriggerEvaluator.xcframework/ios-arm64/dSYMs/MoEngageTriggerEvaluator.framework.dSYM/Contents/Info.plist
 		<string>com.apple.xcode.dsym.com.moengage.MoEngageTriggerEvaluator</string>
+========
+		<string>com.apple.xcode.dsym.com.moengage.MoEngageAnalytics</string>
+>>>>>>>> d4e1f52b9775fadd446c55fa891a7500485aa2ec:Example/Framework/MoEngageAnalytics.xcframework/tvos-arm64/dSYMs/MoEngageAnalytics.framework.dSYM/Contents/Info.plist
 		<key>CFBundleInfoDictionaryVersion</key>
 		<string>6.0</string>
 		<key>CFBundlePackageType</key>
@@ -13,7 +17,11 @@
 		<key>CFBundleSignature</key>
 		<string>????</string>
 		<key>CFBundleShortVersionString</key>
+<<<<<<<< HEAD:Frameworks/MoEngageTriggerEvaluator.xcframework/ios-arm64/dSYMs/MoEngageTriggerEvaluator.framework.dSYM/Contents/Info.plist
 		<string>1.4.0</string>
+========
+		<string>4.21.0</string>
+>>>>>>>> d4e1f52b9775fadd446c55fa891a7500485aa2ec:Example/Framework/MoEngageAnalytics.xcframework/tvos-arm64/dSYMs/MoEngageAnalytics.framework.dSYM/Contents/Info.plist
 		<key>CFBundleVersion</key>
 		<string>1</string>
 	</dict>
